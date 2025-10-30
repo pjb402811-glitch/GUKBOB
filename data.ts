@@ -1,0 +1,393 @@
+import { Recipe } from './types';
+
+export const recipesData: Recipe[] = [
+  // 1. 난이도: 쉬움 (★☆☆☆☆, ★★☆☆☆)
+  {
+    id: 2,
+    name: "콩나물국밥 (전주식)",
+    category: "든든한 맑은 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '콩나물', amount: 150, unit: 'g' },
+      { name: '멸치/다시마 육수', amount: 500, unit: 'ml' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '신김치 (송송)', amount: 50, unit: 'g' },
+      { name: '오징어 (선택)', amount: 30, unit: 'g' },
+      { name: '수란 (별도)', amount: 1, unit: '개' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리), 다시마(1장)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "뚝배기에 밥, 콩나물, 잘게 썬 김치, 오징어(선택)를 넣습니다.",
+      "육수를 붓고 한소끔 끓입니다.",
+      "새우젓으로 간을 하고, 날계란이 아닌 수란을 따로 곁들여 먹습니다."
+    ]
+  },
+  {
+    id: 3,
+    name: "굴국밥",
+    category: "든든한 맑은 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '생굴', amount: 100, unit: 'g' },
+      { name: '멸치/다시마 육수', amount: 500, unit: 'ml' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '미역 (선택)', amount: 10, unit: 'g' },
+      { name: '부추', amount: 0.5, unit: '줌' },
+      { name: '계란', amount: 1, unit: '개' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리), 다시마(1장)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "냄비에 멸치 육수와 밥을 넣고 끓입니다.",
+      "밥알이 퍼지면 깨끗이 씻은 굴과 미역(선택)을 넣습니다.",
+      "한소끔 끓으면 국간장과 소금으로 간을 합니다.",
+      "불을 끄기 직전 계란을 풀고 부추를 올립니다."
+    ]
+  },
+  {
+    id: 23,
+    name: "김치국밥",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '멸치 육수', amount: 500, unit: 'ml' },
+      { name: '신김치 (송송)', amount: 150, unit: 'g' },
+      { name: '돼지고기 (선택)', amount: 50, unit: 'g' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '계란', amount: 1, unit: '개' },
+      { name: '대파', amount: 0.5, unit: '줌' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리), 다시마(1장)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "냄비에 김치를 송송 썰어 볶습니다. (돼지고기 사용 시 같이 볶습니다)",
+      "멸치 육수를 붓고 끓입니다.",
+      "국물이 끓으면 밥을 넣고 한소끔 더 끓입니다.",
+      "국간장, 소금으로 간을 맞추고, 마지막에 대파와 계란을 풀어 완성합니다."
+    ]
+  },
+  {
+    id: 4,
+    name: "소고기뭇국 (국밥식)",
+    category: "든든한 맑은 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '소고기 양지', amount: 100, unit: 'g' },
+      { name: '무 (나박썰기)', amount: 150, unit: 'g' },
+      { name: '물', amount: 600, unit: 'ml' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+      "소고기, 무, 대파를 큼직하게 썰어 고춧가루와 볶아 고추기름을 냅니다.",
+      "물을 붓고 30분 이상 푹 끓이다가 선지를 넣고 익힙니다.",
+      "이름처럼 밥과 국을 따로 내어 먹습니다."
+    ]
+  },
+  {
+    id: 18,
+    name: "로제 순대국밥",
+    category: "톡톡 튀는 퓨전 국밥",
+    difficulty: "쉬움",
+    baseServings: 1, 
+    ingredientsList: [
+      { name: '사골 육수', amount: 400, unit: 'ml' },
+      { name: '생크림(또는 우유)', amount: 100, unit: 'ml' },
+      { name: '고춧가루', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 0.5, unit: 'T' },
+      { name: '국간장', amount: 0.5, unit: 'T' },
+      { name: '순대', amount: 150, unit: 'g' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리), 다시마(1장)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "냄비에 들기름을 두르고 삶은 산채와 된장(0.5T)을 볶습니다.",
+      "멸치 육수를 붓고 푹 끓여 산채의 맛이 우러나게 합니다.",
+      "뚝배기에 밥을 담고 끓인 산채국을 부어 냅니다.",
+      "기호에 따라 들깨가루를 추가합니다."
+    ]
+  },
+  {
+    id: 26,
+    name: "목포 해산물국밥",
+    category: "든든한 맑은 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '멸치/조개 육수', amount: 500, unit: 'ml' },
+      { name: '냉동 해물믹스', amount: 100, unit: 'g' },
+      { name: '콩나물', amount: 1, unit: '줌' },
+      { name: '무 (나박썰기)', amount: 30, unit: 'g' },
+      { name: '새우젓', amount: 0.5, unit: 'T' },
+      { name: '청양고추', amount: 0.5, unit: '개' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리), 조개(바지락)를 넣고 15분간 끓여 시원한 육수를 냅니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "뚝배기에 육수와 무를 넣고 끓입니다.",
+      "육수가 끓으면 밥, 콩나물, 해물믹스를 넣습니다.",
+      "한소끔 끓으면 새우젓으로 간을 하고 청양고추, 대파를 넣어 마무리합니다."
+    ]
+  },
+  {
+    id: 29,
+    name: "제주 해물국밥",
+    category: "든든한 맑은 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '오징어', amount: 50, unit: 'g' },
+      { name: '새우', amount: 2, unit: '마리' },
+      { name: '조개 (바지락 등)', amount: 50, unit: 'g' },
+      { name: '멸치/조개 육수', amount: 500, unit: 'ml' },
+      { name: '콩나물', amount: 1, unit: '줌' },
+      { name: '청양고추 (선택)', amount: 0.5, unit: '개' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리), 조개(바지락)를 넣고 15분간 끓여 시원한 육수를 냅니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "제주의 신선한 해산물을 활용한 맑은 국밥입니다.",
+      "뚝배기에 멸치/조개 육수와 해산물(오징어, 새우, 조개)을 넣고 끓입니다.",
+      "해산물이 익으면 밥과 콩나물을 넣고 한소끔 더 끓입니다.",
+      "새우젓이나 소금으로 간을 하고, 청양고추와 대파를 넣어 시원하게 마무리합니다."
+    ]
+  },
+  {
+    id: 1,
+    name: "돼지국밥 (맑은)",
+    category: "든든한 맑은 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '사골 육수 (시판)', amount: 500, unit: 'ml' },
+      { name: '돼지고기 수육', amount: 100, unit: 'g' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '부추 (겉절이용)', amount: 1, unit: '줌' },
+      { name: '새우젓', amount: 0.5, unit: 'T' },
+      { name: '대파 (송송)', amount: 0.5, unit: '줌' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
+      "사골과 고기를 8시간 이상 푹 끓여 육수를 냅니다. (잡내 제거가 관건)",
+      "고기는 건져서 얇게 썹니다.",
+      "뚝배기에 밥과 고기를 담고 뜨거운 육수를 붓습니다. (토렴)",
+      "부추, 새우젓, 다대기를 곁들여 간을 맞춥니다."
+    ]
+  },
+  {
+    id: 5,
+    name: "얼큰 순대국밥 (다대기)",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '사골 육수', amount: 500, unit: 'ml' },
+      { name: '시판 순대', amount: 100, unit: 'g' },
+      { name: '돼지 부속물 (선택)', amount: 50, unit: 'g' },
+      { name: '다대기', amount: 1, unit: 'T' },
+      { name: '들깨가루', amount: 1, unit: 'T' },
+      { name: '새우젓 (간)', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
+      "뚝배기에 사골 육수를 붓고 끓입니다.",
+      "육수가 끓으면 순대와 부속물을 넣고 한소끔 더 끓입니다.",
+      "다대기(고춧가루, 다진마늘, 국간장, 사골육수)를 크게 한 스푼 넣습니다.",
+      "부추, 들깨가루, 새우젓을 넣어 간을 맞춰 먹습니다."
+    ]
+  },
+  {
+    id: 6,
+    name: "내장국밥",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '삶은 내장 (곱창, 양)', amount: 150, unit: 'g' },
+      { name: '사골 육수', amount: 500, unit: 'ml' },
+      { name: '고춧가루', amount: 1.5, unit: 'T' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '된장', amount: 0.5, unit: 'T' },
+      { name: '대파/깻잎', amount: 1, unit: '줌' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
+      "내장은 밀가루와 소금으로 깨끗이 손질하고 한번 삶아냅니다. (가장 중요)",
+      "냄비에 사골 육수와 손질한 내장을 넣고 푹 끓입니다.",
+      "고춧가루, 된장(0.5T), 국간장, 다진 마늘로 얼큰하게 간을 맞춥니다.",
+      "대파와 깻잎을 듬뿍 넣어 마무리합니다."
+    ]
+  },
+  {
+    id: 8,
+    name: "병천 순대국밥 (충남)",
+    category: "지역별/특별 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '병천순대 (피순대)', amount: 150, unit: 'g' },
+      { name: '사골 육수', amount: 500, unit: 'ml' },
+      { name: '돼지 부속물', amount: 50, unit: 'g' },
+      { name: '새우젓 (간)', amount: 0.5, unit: 'T' },
+      { name: '들깨가루', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
+      "일반 순대국밥과 비슷하지만, 당면 대신 선지와 채소가 들어간 '병천순대'를 사용합니다.",
+      "사골 육수에 순대와 부속물을 넣고 끓입니다.",
+      "다대기 없이 맑고 진하게 끓여내며, 새우젓과 들깨가루로 간을 하는 것이 특징입니다."
+    ]
+  },
+  {
+    id: 22,
+    name: "광주 애호박 국밥 (고추장 찌개식)",
+    category: "지역별/특별 국밥",
+    difficulty: "보통",
+    baseServings: 1, 
+    ingredientsList: [
+      { name: '돼지고기 (채썬 것)', amount: 150, unit: 'g' },
+      { name: '애호박 (채썬 것)', amount: 0.5, unit: '개' },
+      { name: '양파 (채썬 것)', amount: 0.3, unit: '개' },
+      { name: '물 또는 멸치육수', amount: 500, unit: 'ml' },
+      { name: '고추장', amount: 1, unit: 'T' },
+      { name: '고춧가루', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '새우젓 (선택)', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 물 600ml에 멸치(10마리)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "냄비에 기름을 두르고 돼지고기와 다진 마늘을 볶습니다.",
+      "고기가 익으면 고춧가루를 넣고 약불에 볶아 고추기름을 냅니다.",
+      "물(또는 육수)을 붓고 고추장(1T)을 풉니다.",
+      "국물이 끓으면 채 썬 애호박과 양파를 듬뿍 넣습니다.",
+      "애호박이 익을 때까지 푹 끓인 후, 국간장이나 새우젓으로 간을 맞춥니다. 밥과 함께 냅니다."
+    ]
+  },
+  {
+    id: 27,
+    name: "제주 몸국 (몸 = 모자반)",
+    category: "지역별/특별 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '돼지 사골 육수', amount: 500, unit: 'ml' },
+      { name: '삶은 모자반(몸)', amount: 100, unit: 'g' },
+      { name: '삶은 돼지고기/내장', amount: 50, unit: 'g' },
+      { name: '메밀가루', amount: 2, unit: 'T' },
+      { name: '신김치 (송송)', amount: 30, unit: 'g' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
+      "돼지 육수에 삶은 모자반과 잘게 썬 돼지고기/내장, 신김치를 넣고 끓입니다.",
+      "메밀가루를 육수에 잘 풀어 넣으면서 농도를 걸쭉하게 맞춥니다.",
+      "한소끔 푹 끓여내 밥과 함께 먹습니다.",
+      "제주도의 대표적인 향토 음식입니다."
+    ]
+  },
+  {
+    id: 28,
+    name: "제주 흑돼지국밥",
+    category: "지역별/특별 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '흑돼지 고기 (수육용)', amount: 120, unit: 'g' },
+      { name: '사골 육수', amount: 500, unit: 'ml' },
+      { name: '콩나물', amount: 1, unit: '줌' },
+      { name: '대파 (송송)', amount: 0.5, unit: '줌' },
+      { name: '새우젓 (간)', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
+      "제주 흑돼지를 사용한 국밥입니다. (가정에서는 일반 돼지고기 수육으로 대체 가능)",
+      "뚝배기에 사골 육수를 붓고 끓입니다.",
+      "육수가 끓으면 밥과 흑돼지 수육, 콩나물을 넣고 한소끔 끓입니다.",
+      "대파를 올리고 새우젓으로 간을 맞춰 먹습니다."
+    ]
+  },
+  {
+    id: 30,
+    name: "올갱이 국밥 (다슬기)",
+    category: "지역별/특별 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '삶은 올갱이 (다슬기)', amount: 80, unit: 'g' },
+      { name: '멸치/올갱이 육수', amount: 500, unit: 'ml' },
+      { name: '된장', amount: 0.5, unit: 'T' },
+      { name: '고추장 (선택)', amount: 0.5, unit: 'T' },
+      { name: '아욱 또는 배추', amount: 50, unit: 'g' },
+      { name: '부추 (송송)', amount: 1, unit: '줌' },
+      { name: '다진 마늘', amount: 0.5, unit: 'T' },
+      { name: '밀가루/전분물 (선택)', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "육수 만들기: 올갱이(다슬기) 삶은 물을 육수로 사용하거나, 물 600ml에 멸치(10마리)를 넣고 15분간 끓여 멸치 육수를 냅니다. (시판 멸치 육수 500ml로 대체 가능)",
+      "올갱이(다슬기)는 껍질째 삶아 살을 발라내고, 삶은 물은 육수로 사용합니다. (가정에서는 손질된 올갱이와 멸치 육수 사용)",
+      "뚝배기에 육수를 붓고 된장(0.5T)과 고추장(0.5T, 선택)을 풀어 끓입니다.",
+      "국물이 끓으면 손질한 아욱/배추와 올갱이, 다진 마늘을 넣고 끓입니다.",
+      "국물 맛이 어우러지면, 기호에 따라 밀가루/전분물을 살짝 풀어 농도를 맞춥니다.",
+      "마지막에 부추를 듬뿍 넣고 밥과 함께 냅니다."
+    ]
+  },
+  {
+    id: 7,
+    name: "뼈해장국 (감자탕)",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '돼지 등뼈', amount: 400, unit: 'g' },
+      { name: '감자', amount: 1, unit: '개' },
+      { name: '삶은 우거지/시래기', amount: 100, unit: 'g' },
+      { name: '들깨가루', amount: 2, unit: 'T' },
+      { name: '된장', amount: 1, unit: 'T' },
+      { name: '고춧가루', amount: 2, unit: 'T' }
+    ],
+    recipeSteps: [
+      "등뼈는 핏물을 빼고 초벌로 삶아 불순물을 제거합니다.",
+      "깨끗이 씻은 등뼈와 물, 된장(1T), 맛술을 넣고 1시간 이상 푹 삶습니다.",
+      "삶은 우거지, 감자, 양념(고춧가루, 국간장, 다진마늘, 생강)을 넣고 30분 더 끓입니다.",
+      "마지막에 들깨가루와 대파, 깻잎을 넣습니다."
+    ]
+  },
+  {
+    id: 21,
+    name: "진주식 빨간 머리국밥",
+    category: "지역별/특별 국밥",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '돼지 머릿고기 (편육)', amount: 100, unit: 'g' },
+      { name: '사골 육수 (대체)', amount: 500, unit: 'ml' },
+      { name: '고춧가루', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '부추/대파', amount: 1, unit: '줌' }
+    ],
+    recipeSteps: [
+      "영상 속 '진주 반성시장' 스타일 국밥입니다. 뼈가 아닌 돼지머리로 육수를 내는 것이 특징입니다.",
+      "가정에서는 시판 사골 육수에 고춧가루(1T), 다진 마늘(1T), 국간장(1T)를 풀어 얼큰한 밑 국물을 만듭니다.",
+      "뚝배기에 밥과 편육(머릿고기)을 담습니다.",
+      "뜨거운 국물을 부었다 따랐다 반복하여 밥을 데웁니다 (토렴).",
+      "마지막으로 뜨거운 국물을 붓고, 위에 부추와 대파를 듬뿍 올려 냅니다."
+    ]
+  },
+  {
+    id: 17,
+    name: "곰탕 / 설렁탕",
+    category: "뽀얀 국물 (고급)",
+    difficulty: "전문가",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '시판 곰탕/설렁탕 팩', amount: 1, unit: '팩' },
+      { name: '소면 (선택)', amount: 50, unit: 'g' },
+      { name: '대파 (송송)', amount: 1, unit: '줌' },
+      { name: '소금/후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "이 두 가지는 집에서 조리하기 매우 까다롭고(재료 손질, 잡내 제거 등), 전문점에서 포장하거나 밀키트를 활용하시는 것을 강력히 추천합니다."
+    ]
+  }
+];
