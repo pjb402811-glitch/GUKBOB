@@ -11,10 +11,14 @@ function App() {
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
 
   const filteredRecipes = useMemo(() => {
+    const lowercasedSearchTerm = searchTerm.toLowerCase();
     return recipesData.filter((recipe) => {
-      const nameMatch = recipe.name.toLowerCase().includes(searchTerm.toLowerCase());
+      const nameMatch = recipe.name.toLowerCase().includes(lowercasedSearchTerm);
+      const ingredientMatch = recipe.ingredientsList.some((ingredient) =>
+        ingredient.name.toLowerCase().includes(lowercasedSearchTerm)
+      );
       const difficultyMatch = difficultyFilter === "all" || recipe.difficulty === difficultyFilter;
-      return nameMatch && difficultyMatch;
+      return (nameMatch || ingredientMatch) && difficultyMatch;
     });
   }, [searchTerm, difficultyFilter]);
 

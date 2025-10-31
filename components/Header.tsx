@@ -13,11 +13,11 @@ const Header: React.FC<HeaderProps> = ({ onSearch, onDifficultyFilter, activeDif
     <header className="bg-gray-800 shadow-md p-4 sticky top-0 z-10">
       <div className="container mx-auto max-w-5xl">
         <h1 className="text-3xl font-bold text-white text-center mb-4">
-          수요일 점심은 든든한 국밥으로
+          수요일 점심 국밥 어때?
         </h1>
         <input
           type="text"
-          placeholder="국밥 이름 검색..."
+          placeholder="재료 또는 국밥 이름 검색"
           className="w-full p-2 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 mb-3 bg-gray-700 text-white placeholder-gray-400"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => onSearch(e.target.value)}
         />

@@ -153,6 +153,59 @@ export const recipesData: Recipe[] = [
     ]
   },
   {
+    id: 32,
+    name: "시래기 닭국밥",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '닭가슴살', amount: 150, unit: 'g' },
+      { name: '물', amount: 750, unit: 'ml' },
+      { name: '시래기 (삶은 것)', amount: 80, unit: 'g' },
+      { name: '느타리버섯', amount: 50, unit: 'g' },
+      { name: '대파', amount: 0.3, unit: '대' },
+      { name: '양파', amount: 0.25, unit: '개' },
+      { name: '식용유', amount: 1, unit: 'T' },
+      { name: '고춧가루', amount: 0.5, unit: 'T' },
+      { name: '국간장', amount: 0.5, unit: 'T' },
+      { name: '멸치액젓', amount: 0.5, unit: 'T' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "물 750ml에 닭가슴살을 삶아 육수를 만들고, 닭가슴살은 건져서 잘게 찢어 준비합니다.",
+      "냄비에 기름을 두르고 고추기름을 낸 후, 대파와 양파를 넣고 볶아줍니다.",
+      "만들어 둔 닭 육수와 느타리버섯, 시래기를 넣고 끓입니다.",
+      "국물이 끓으면 찢어둔 닭가슴살을 넣고 함께 끓여줍니다.",
+      "멸치액젓과 국간장으로 간을 맞춘 후, 마지막으로 후추를 뿌려 마무리합니다."
+    ]
+  },
+  {
+    id: 33,
+    name: "우삼겹얼큰 국밥",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '우삼겹', amount: 150, unit: 'g' },
+      { name: '사골곰탕 (시판)', amount: 1, unit: '팩' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '고춧가루', amount: 1.5, unit: 'T' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '청양고추 (선택)', amount: 1, unit: '개' },
+      { name: '소금', amount: 0, unit: '약간' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "냄비에 우삼겹과 다진 마늘(1T)을 넣고 볶아줍니다.",
+      "고기의 핏기가 사라지면 고춧가루(1.5T)와 송송 썬 대파를 넣고 약불에서 타지 않게 볶아 고추기름을 냅니다.",
+      "사골곰탕 한 팩(약 500ml)을 붓고 강불에서 끓입니다.",
+      "국이 끓어오르면 떠오르는 기름과 거품은 기호에 맞게 살짝 걷어냅니다.",
+      "소금과 후추로 부족한 간을 맞춥니다.",
+      "마지막으로 어슷 썬 청양고추를 넣고 밥과 함께 냅니다."
+    ]
+  },
+  // 2. 난이도: 보통 (★★★☆☆)
+  {
     id: 1,
     name: "돼지국밥 (맑은)",
     category: "든든한 맑은 국밥",
@@ -331,6 +384,7 @@ export const recipesData: Recipe[] = [
       "마지막에 부추를 듬뿍 넣고 밥과 함께 냅니다."
     ]
   },
+  // 3. 난이도: 어려움 (★★★★☆)
   {
     id: 7,
     name: "뼈해장국 (감자탕)",
@@ -374,6 +428,31 @@ export const recipesData: Recipe[] = [
       "마지막으로 뜨거운 국물을 붓고, 위에 부추와 대파를 듬뿍 올려 냅니다."
     ]
   },
+  {
+    id: 31,
+    name: "대구식 따로국밥",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '사골 육수', amount: 500, unit: 'ml' },
+      { name: '소고기 양지 (삶은 것)', amount: 100, unit: 'g' },
+      { name: '선지', amount: 80, unit: 'g' },
+      { name: '무 (나박썰기)', amount: 100, unit: 'g' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '고춧가루', amount: 1.5, unit: 'T' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '전문가'이며 8시간 이상 소요됩니다.)",
+      "냄비에 사골 육수와 큼직하게 썬 무를 넣고 끓입니다.",
+      "무가 익으면 미리 삶아 찢어둔 양지와 선지를 넣습니다.",
+      "고춧가루(1.5T), 국간장(1T), 다진 마늘(1T)로 양념하고 한소끔 더 끓입니다.",
+      "마지막에 대파를 듬뿍 넣고, 소금과 후추로 간을 맞춥니다. 이름처럼 밥은 따로 냅니다 (따로국밥)."
+    ]
+  },
+  // 4. 난이도: 전문가 (★★★★★)
   {
     id: 17,
     name: "곰탕 / 설렁탕",
