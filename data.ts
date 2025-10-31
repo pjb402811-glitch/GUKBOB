@@ -1,3 +1,4 @@
+
 import { Recipe } from './types';
 
 export const recipesData: Recipe[] = [
@@ -181,7 +182,7 @@ export const recipesData: Recipe[] = [
   },
   {
     id: 33,
-    name: "우삼겹얼큰 국밥",
+    name: "우삼겹 얼큰국밥",
     category: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
@@ -468,6 +469,35 @@ export const recipesData: Recipe[] = [
       "국물이 끓으면 손질한 아욱/배추와 올갱이, 다진 마늘을 넣고 끓입니다.",
       "국물 맛이 어우러지면, 기호에 따라 밀가루/전분물을 살짝 풀어 농도를 맞춥니다.",
       "마지막에 부추를 듬뿍 넣고 밥과 함께 냅니다."
+    ]
+  },
+  {
+    id: 38,
+    name: "소고기 시래기 국밥",
+    category: "든든한 맑은 국밥",
+    difficulty: "보통",
+    baseServings: 2,
+    ingredientsList: [
+      { name: '시래기 (마른)', amount: 100, unit: 'g' },
+      { name: '소고기 (양지/설깃살)', amount: 200, unit: 'g' },
+      { name: '밥', amount: 2, unit: '공기' },
+      { name: '무', amount: 150, unit: 'g' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '생강 (선택)', amount: 1, unit: '쪽' },
+      { name: '국간장', amount: 2, unit: 'T' },
+      { name: '소금', amount: 0.5, unit: 't' },
+      { name: '후춧가루', amount: 0, unit: '약간' },
+      { name: '참기름', amount: 0.5, unit: 't' },
+      { name: '고춧가루 (선택)', amount: 1, unit: 't' },
+      { name: '청양고추 (선택)', amount: 1, unit: '개' }
+    ],
+    recipeSteps: [
+      "시래기 준비하기: 마른 시래기는 찬물에 30분 이상 불린 후, 손으로 주물러 헹궈 물기를 꽉 짜둡니다.",
+      "소고기 육수 내기: 냄비에 소고기, 무, 대파 흰부분, 생강 슬라이스를 넣고 물 800ml~1L를 부어 거품을 걷어내며 30~40분 끓여 육수를 우립니다.",
+      "육수가 우러나면 고기와 무는 건져내고, 육수에 다진 마늘과 국간장을 넣고 끓입니다.",
+      "준비된 시래기와 건져낸 소고기, 무를 다시 넣고 15~20분 더 끓입니다. (칼칼하게 드시려면 이때 고춧가루, 청양고추를 추가하세요.)",
+      "마지막으로 소금, 후춧가루로 간을 맞춥니다. 그릇에 밥을 담고 국을 부은 뒤, 대파 푸른 부분과 참기름을 올려 완성합니다."
     ]
   },
   // 3. 난이도: 어려움 (★★★★☆)
