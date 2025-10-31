@@ -47,6 +47,32 @@ export const recipesData: Recipe[] = [
     ]
   },
   {
+    id: 40,
+    name: "매생이 굴 국밥",
+    category: "든든한 맑은 국밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '매생이', amount: 75, unit: 'g' },
+      { name: '생굴', amount: 100, unit: 'g' },
+      { name: '멸치/다시마 육수', amount: 500, unit: 'ml' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '들기름', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 1, unit: 't' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '새우젓 (선택)', amount: 0.25, unit: 't' },
+      { name: '대파', amount: 0.5, unit: '줌' },
+      { name: '계란 (선택)', amount: 1, unit: '개' }
+    ],
+    recipeSteps: [
+      "굴 손질: 소금물에 굴을 가볍게 헹군 뒤, 맑은 물로 2~3회 헹궈 물기를 뺍니다.",
+      "육수 준비: 냄비에 멸치/다시마 육수 500ml를 붓고 끓입니다. (팁: 굴 헹군 물을 조금 넣으면 풍미가 좋습니다)",
+      "육수가 끓으면 들기름(1T), 다진 마늘(1t), 국간장(1T)을 넣습니다.",
+      "약불로 줄이고 손질한 굴(100g)을 넣어 30초간 데친 후, 헹궈둔 매생이(75g)를 넣고 15초만 더 끓입니다. (오래 끓이면 질겨져요!)",
+      "새우젓이나 소금, 후추로 간을 맞추고 대파를 올립니다. 기호에 따라 계란을 추가해도 좋습니다."
+    ]
+  },
+  {
     id: 23,
     name: "김치국밥",
     category: "얼큰 칼칼한 국밥",
