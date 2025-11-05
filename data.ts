@@ -1,5 +1,3 @@
-
-
 import { Recipe } from './types';
 
 export const recipesData: Recipe[] = [
@@ -605,6 +603,47 @@ export const recipesData: Recipe[] = [
       "마지막으로 소금, 후춧가루로 간을 맞춥니다. 그릇에 밥을 담고 국을 부은 뒤, 대파 푸른 부분과 참기름을 올려 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tMG2",
+  },
+  {
+    id: 42,
+    name: "해물 짬뽕밥",
+    category: "얼큰 칼칼한 국밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '당면', amount: 50, unit: 'g' },
+      { name: '양배추', amount: 1, unit: '줌' },
+      { name: '양파', amount: 0.5, unit: '개' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '당근', amount: 20, unit: 'g' },
+      { name: '고추', amount: 1, unit: '개' },
+      { name: '새우', amount: 5, unit: '마리' },
+      { name: '오징어', amount: 1, unit: '마리' },
+      { name: '돼지고기', amount: 100, unit: 'g' },
+      { name: '식용유', amount: 2, unit: 'T' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '간장', amount: 2, unit: 'T' },
+      { name: '고춧가루', amount: 3, unit: 'T' },
+      { name: '물', amount: 500, unit: 'ml' },
+      { name: '치킨 스톡 (선택)', amount: 1, unit: 'T' },
+      { name: '설탕', amount: 0.3, unit: 'T' },
+      { name: '소금', amount: 0, unit: '약간' },
+      { name: '계란', amount: 1, unit: '개' },
+      { name: '밥', amount: 1, unit: '공기' }
+    ],
+    recipeSteps: [
+      "따뜻한 물에 당면을 미리 불려둡니다.",
+      "양배추, 양파, 대파, 당근, 고추 등 야채를 썰어서 준비합니다.",
+      "오징어는 몸통에 대각선으로 칼집을 넣은 뒤 1.5~2cm 간격으로 썰어 준비합니다.",
+      "팬에 식용유(또는 고추기름)를 두르고 돼지고기를 넣어 볶아줍니다.",
+      "고기가 익으면 다진 마늘과 간장을 넣고 함께 볶습니다.",
+      "불을 약간 줄인 뒤 고춧가루를 넣어 타지 않게 잘 볶아줍니다.",
+      "준비한 야채와 해물(새우, 오징어)을 모두 넣고 다시 한번 볶습니다.",
+      "재료가 볶아지면 물 500ml를 붓고 끓입니다.",
+      "국물이 끓어오르면 치킨 스톡(선택 사항), 설탕 1/3스푼, 소금을 넣어 간을 맞춥니다.",
+      "마지막으로 계란 하나를 풀어 국물에 넣고 너무 휘젓지 말고 살짝 익혀줍니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1uEjp",
   },
   // 3. 난이도: 어려움 (★★★★☆)
   {
