@@ -14,4 +14,5 @@ export interface Recipe {
   baseServings: number;
   ingredientsList: Ingredient[];
   recipeSteps: string[];
+  purchaseUrl?: string;
 }

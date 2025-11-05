@@ -1,4 +1,5 @@
 
+
 import { Recipe } from './types';
 
 export const recipesData: Recipe[] = [
@@ -22,7 +23,8 @@ export const recipesData: Recipe[] = [
       "뚝배기에 밥, 콩나물, 잘게 썬 김치, 오징어(선택)를 넣습니다.",
       "육수를 붓고 한소끔 끓입니다.",
       "새우젓으로 간을 하고, 날계란이 아닌 수란을 따로 곁들여 먹습니다."
-    ]
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/c1tHcY',
   },
   {
     id: 3,
@@ -44,7 +46,8 @@ export const recipesData: Recipe[] = [
       "밥알이 퍼지면 깨끗이 씻은 굴과 미역(선택)을 넣습니다.",
       "한소끔 끓으면 국간장과 소금으로 간을 합니다.",
       "불을 끄기 직전 계란을 풀고 부추를 올립니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t19h",
   },
   {
     id: 40,
@@ -70,7 +73,8 @@ export const recipesData: Recipe[] = [
       "육수가 끓으면 들기름(1T), 다진 마늘(1t), 국간장(1T)을 넣습니다.",
       "약불로 줄이고 손질한 굴(100g)을 넣어 30초간 데친 후, 헹궈둔 매생이(75g)를 넣고 15초만 더 끓입니다. (오래 끓이면 질겨져요!)",
       "새우젓이나 소금, 후추로 간을 맞추고 대파를 올립니다. 기호에 따라 계란을 추가해도 좋습니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tOgs",
   },
   {
     id: 23,
@@ -92,7 +96,8 @@ export const recipesData: Recipe[] = [
       "멸치 육수를 붓고 끓입니다.",
       "국물이 끓으면 밥을 넣고 한소끔 더 끓입니다.",
       "국간장, 소금으로 간을 맞추고, 마지막에 대파와 계란을 풀어 완성합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t2TE",
   },
   {
     id: 4,
@@ -112,7 +117,8 @@ export const recipesData: Recipe[] = [
       "소고기, 무, 대파를 큼직하게 썰어 고춧가루와 볶아 고추기름을 냅니다.",
       "물을 붓고 30분 이상 푹 끓이다가 선지를 넣고 익힙니다.",
       "이름처럼 밥과 국을 따로 내어 먹습니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tMG2",
   },
   {
     id: 18,
@@ -134,7 +140,8 @@ export const recipesData: Recipe[] = [
       "멸치 육수를 붓고 푹 끓여 산채의 맛이 우러나게 합니다.",
       "뚝배기에 밥을 담고 끓인 산채국을 부어 냅니다.",
       "기호에 따라 들깨가루를 추가합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tWZO",
   },
   {
     id: 26,
@@ -155,7 +162,8 @@ export const recipesData: Recipe[] = [
       "뚝배기에 육수와 무를 넣고 끓입니다.",
       "육수가 끓으면 밥, 콩나물, 해물믹스를 넣습니다.",
       "한소끔 끓으면 새우젓으로 간을 하고 청양고추, 대파를 넣어 마무리합니다."
-    ]
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/c1ukIE',
   },
   {
     id: 29,
@@ -177,7 +185,8 @@ export const recipesData: Recipe[] = [
       "뚝배기에 멸치/조개 육수와 해산물(오징어, 새우, 조개)을 넣고 끓입니다.",
       "해산물이 익으면 밥과 콩나물을 넣고 한소끔 더 끓입니다.",
       "새우젓이나 소금으로 간을 하고, 청양고추와 대파를 넣어 시원하게 마무리합니다."
-    ]
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/c1ugOH',
   },
   {
     id: 32,
@@ -204,7 +213,8 @@ export const recipesData: Recipe[] = [
       "만들어 둔 닭 육수와 느타리버섯, 시래기를 넣고 끓입니다.",
       "국물이 끓으면 찢어둔 닭가슴살을 넣고 함께 끓여줍니다.",
       "멸치액젓과 국간장으로 간을 맞춘 후, 마지막으로 후추를 뿌려 마무리합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t4WX",
   },
   {
     id: 33,
@@ -229,7 +239,8 @@ export const recipesData: Recipe[] = [
       "국이 끓어오르면 떠오르는 기름과 거품은 기호에 맞게 살짝 걷어냅니다.",
       "소금과 후추로 부족한 간을 맞춥니다.",
       "마지막으로 어슷 썬 청양고추를 넣고 밥과 함께 냅니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tTPO",
   },
   {
     id: 35,
@@ -259,7 +270,8 @@ export const recipesData: Recipe[] = [
       "국물이 끓으면 새우젓 1T로 간을 합니다. (기호에 따라 가감)",
       "대파와 청양고추를 넣고 한소끔 더 끓인 후, 후춧가루를 뿌려 마무리합니다.",
       "그릇에 밥을 담고 뜨거운 국밥을 부어 냅니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tQAG",
   },
   {
     id: 36,
@@ -287,7 +299,8 @@ export const recipesData: Recipe[] = [
       "사골곰탕 육수(500ml), 물(300ml), 국간장(2스푼), 다진 마늘(1스푼), 양파를 모두 넣습니다.",
       "뚜껑을 덮고 중약불에서 10분 이상 끓여줍니다.",
       "대파가 푹 익으면 간을 보고 부족한 간은 소금으로 맞춘 뒤, 후추를 뿌려 마무리합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1uiWb",
   },
   {
     id: 37,
@@ -315,7 +328,8 @@ export const recipesData: Recipe[] = [
       "참치 기름을 반만 버리고 건더기를 넣은 후, 국간장(1T)과 다진 마늘(0.5t)을 넣고 끓입니다.",
       "소금으로 간을 맞추고, (선택) 풀어둔 달걀물을 부어 익힙니다.",
       "불을 끄기 직전 후춧가루를 뿌린 후 밥 위에 부어 완성합니다. (취향에 따라 참기름 추가)"
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t0YF",
   },
   {
     id: 41,
@@ -344,7 +358,8 @@ export const recipesData: Recipe[] = [
       "끓이기: 양념이 잘 볶아지면 양파, 애호박을 넣고 가볍게 볶은 후, 육수 500ml를 붓고 센 불에 끓입니다. (팁: 시판 사골육수를 사용하면 깊은 맛을 내기 좋습니다)",
       "밥 넣기: 국물이 끓고 채소가 익으면 두부와 찬밥 1공기를 넣고 밥알을 잘 풀어줍니다.",
       "마무리: 중불로 줄여 3~5분간 걸쭉하게 끓인 뒤, 대파와 청양고추를 넣고 한소끔 더 끓여 완성합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1uiWb",
   },
   // 2. 난이도: 보통 (★★★☆☆)
   {
@@ -367,7 +382,8 @@ export const recipesData: Recipe[] = [
       "고기는 건져서 얇게 썹니다.",
       "뚝배기에 밥과 고기를 담고 뜨거운 육수를 붓습니다. (토렴)",
       "부추, 새우젓, 다대기를 곁들여 간을 맞춥니다."
-    ]
+    ],
+    purchaseUrl: 'https://www.coupang.com/np/search?q=%EB%90%BC%EC%A7%80%EA%B5%AD%EB%B0%A5+%EB%B0%80%ED%82%A4%ED%8A%B8',
   },
   {
     id: 5,
@@ -389,7 +405,8 @@ export const recipesData: Recipe[] = [
       "육수가 끓으면 순대와 부속물을 넣고 한소끔 더 끓입니다.",
       "다대기(고춧가루, 다진마늘, 국간장, 사골육수)를 크게 한 스푼 넣습니다.",
       "부추, 들깨가루, 새우젓을 넣어 간을 맞춰 먹습니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tWZO",
   },
   {
     id: 6,
@@ -411,7 +428,8 @@ export const recipesData: Recipe[] = [
       "냄비에 사골 육수와 손질한 내장을 넣고 푹 끓입니다.",
       "고춧가루, 된장(0.5T), 국간장, 다진 마늘로 얼큰하게 간을 맞춥니다.",
       "대파와 깻잎을 듬뿍 넣어 마무리합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t5GV",
   },
     {
       id: 39,
@@ -437,7 +455,8 @@ export const recipesData: Recipe[] = [
         "무가 익기 시작하면 데쳐둔 선지와 다진 마늘, 고춧가루, 국간장을 넣습니다. (팁: 된장 0.5T를 풀면 더 깊은 맛이 납니다.)",
         "한소끔 더 끓여 무가 푹 익고 선지에 맛이 배면, 마지막으로 대파를 듬뿍 넣습니다.",
         "밥과 함께 따로 내어(따로국밥) 깍두기나 김치와 곁들여 먹습니다."
-      ]
+      ],
+      purchaseUrl: "https://link.coupang.com/a/c1t9aD",
     },
   {
     id: 8,
@@ -457,7 +476,8 @@ export const recipesData: Recipe[] = [
       "일반 순대국밥과 비슷하지만, 당면 대신 선지와 채소가 들어간 '병천순대'를 사용합니다.",
       "사골 육수에 순대와 부속물을 넣고 끓입니다.",
       "다대기 없이 맑고 진하게 끓여내며, 새우젓과 들깨가루로 간을 하는 것이 특징입니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tWZO",
   },
   {
     id: 22,
@@ -483,7 +503,8 @@ export const recipesData: Recipe[] = [
       "물(또는 육수)을 붓고 고추장(1T)을 풉니다.",
       "국물이 끓으면 채 썬 애호박과 양파를 듬뿍 넣습니다.",
       "애호박이 익을 때까지 푹 끓인 후, 국간장이나 새우젓으로 간을 맞춥니다. 밥과 함께 냅니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1ufgv"
   },
   {
     id: 27,
@@ -504,7 +525,8 @@ export const recipesData: Recipe[] = [
       "메밀가루를 육수에 잘 풀어 넣으면서 농도를 걸쭉하게 맞춥니다.",
       "한소끔 푹 끓여내 밥과 함께 먹습니다.",
       "제주도의 대표적인 향토 음식입니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tVOx",
   },
   {
     id: 28,
@@ -525,7 +547,8 @@ export const recipesData: Recipe[] = [
       "뚝배기에 사골 육수를 붓고 끓입니다.",
       "육수가 끓으면 밥과 흑돼지 수육, 콩나물을 넣고 한소끔 끓입니다.",
       "대파를 올리고 새우젓으로 간을 맞춰 먹습니다."
-    ]
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/c1tSda',
   },
   {
     id: 30,
@@ -550,7 +573,8 @@ export const recipesData: Recipe[] = [
       "국물이 끓으면 손질한 아욱/배추와 올갱이, 다진 마늘을 넣고 끓입니다.",
       "국물 맛이 어우러지면, 기호에 따라 밀가루/전분물을 살짝 풀어 농도를 맞춥니다.",
       "마지막에 부추를 듬뿍 넣고 밥과 함께 냅니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tZND",
   },
   {
     id: 38,
@@ -579,7 +603,8 @@ export const recipesData: Recipe[] = [
       "육수가 우러나면 고기와 무는 건져내고, 육수에 다진 마늘과 국간장을 넣고 끓입니다.",
       "준비된 시래기와 건져낸 소고기, 무를 다시 넣고 15~20분 더 끓입니다. (칼칼하게 드시려면 이때 고춧가루, 청양고추를 추가하세요.)",
       "마지막으로 소금, 후춧가루로 간을 맞춥니다. 그릇에 밥을 담고 국을 부은 뒤, 대파 푸른 부분과 참기름을 올려 완성합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tMG2",
   },
   // 3. 난이도: 어려움 (★★★★☆)
   {
@@ -601,7 +626,8 @@ export const recipesData: Recipe[] = [
       "깨끗이 씻은 등뼈와 물, 된장(1T), 맛술을 넣고 1시간 이상 푹 삶습니다.",
       "삶은 우거지, 감자, 양념(고춧가루, 국간장, 다진마늘, 생강)을 넣고 30분 더 끓입니다.",
       "마지막에 들깨가루와 대파, 깻잎을 넣습니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t6mI",
   },
   {
     id: 21,
@@ -623,7 +649,8 @@ export const recipesData: Recipe[] = [
       "뚝배기에 밥과 편육(머릿고기)을 담습니다.",
       "뜨거운 국물을 부었다 따랐다 반복하여 밥을 데웁니다 (토렴).",
       "마지막으로 뜨거운 국물을 붓고, 위에 부추와 대파를 듬뿍 올려 냅니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t6Tv",
   },
   {
     id: 31,
@@ -647,7 +674,8 @@ export const recipesData: Recipe[] = [
       "무가 익으면 미리 삶아 찢어둔 양지와 선지를 넣습니다.",
       "고춧가루(1.5T), 국간장(1T), 다진 마늘(1T)로 양념하고 한소끔 더 끓입니다.",
       "마지막에 대파를 듬뿍 넣고, 소금과 후추로 간을 맞춥니다. 이름처럼 밥은 따로 냅니다 (따로국밥)."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1ukIE",
   },
   {
     id: 34,
@@ -686,7 +714,8 @@ export const recipesData: Recipe[] = [
       "끓이기: 냄비에 오리와 물 1.5리터를 붓고 5분 끓인 후, 들깨 육수와 양념한 채소를 넣습니다.",
       "뚜껑을 닫고 40분간 끓입니다. 눌어붙지 않도록 중간중간 저어주고 15분 후부터는 중불로 줄입니다.",
       "마무리: 소금 1스푼으로 간을 맞춘 뒤, 손질해둔 나머지 채소(미나리, 양파, 부추, 깻잎, 대파)를 넣고 한소끔 더 끓여 완성합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1tZND",
   },
   // 4. 난이도: 전문가 (★★★★★)
   {
@@ -703,6 +732,7 @@ export const recipesData: Recipe[] = [
     ],
     recipeSteps: [
       "이 두 가지는 집에서 조리하기 매우 까다롭고(재료 손질, 잡내 제거 등), 전문점에서 포장하거나 밀키트를 활용하시는 것을 강력히 추천합니다."
-    ]
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1t3Jx",
   }
 ];
