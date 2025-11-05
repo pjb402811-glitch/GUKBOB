@@ -112,6 +112,24 @@ const RecipeModal: React.FC<RecipeModalProps> = ({ recipe, onClose }) => {
               </div>
             </div>
           )}
+          
+          {recipe.youtubeUrl && (
+            <div className="mb-6">
+              <div className="bg-gray-900/50 p-4 rounded-lg border border-gray-600">
+                <a
+                  href={recipe.youtubeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center px-4 py-3 border border-transparent text-lg font-semibold rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 mr-2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.972l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
+                  </svg>
+                  영상보고 따라하기
+                </a>
+              </div>
+            </div>
+          )}
 
         </div>
         

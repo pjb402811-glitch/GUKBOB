@@ -15,4 +15,5 @@ export interface Recipe {
   ingredientsList: Ingredient[];
   recipeSteps: string[];
   purchaseUrl?: string;
+  youtubeUrl?: string;
 }

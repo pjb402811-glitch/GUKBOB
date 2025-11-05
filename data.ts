@@ -23,6 +23,7 @@ export const recipesData: Recipe[] = [
       "새우젓으로 간을 하고, 날계란이 아닌 수란을 따로 곁들여 먹습니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/c1tHcY',
+    youtubeUrl: 'https://youtu.be/gO3hV9COzIg?si=GspaejZBqtdWYqp_'
   },
   {
     id: 3,
@@ -46,6 +47,7 @@ export const recipesData: Recipe[] = [
       "불을 끄기 직전 계란을 풀고 부추를 올립니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t19h",
+    youtubeUrl: 'https://www.youtube.com/watch?v=Fj-uPzYQo5c'
   },
   {
     id: 40,
@@ -73,6 +75,7 @@ export const recipesData: Recipe[] = [
       "새우젓이나 소금, 후추로 간을 맞추고 대파를 올립니다. 기호에 따라 계란을 추가해도 좋습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tOgs",
+    youtubeUrl: 'https://www.youtube.com/watch?v=x2ilC3bNqgQ'
   },
   {
     id: 23,
@@ -96,6 +99,7 @@ export const recipesData: Recipe[] = [
       "국간장, 소금으로 간을 맞추고, 마지막에 대파와 계란을 풀어 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t2TE",
+    youtubeUrl: 'https://www.youtube.com/watch?v=j35-515t-p8'
   },
   {
     id: 4,
@@ -117,6 +121,7 @@ export const recipesData: Recipe[] = [
       "이름처럼 밥과 국을 따로 내어 먹습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tMG2",
+    youtubeUrl: 'https://www.youtube.com/watch?v=Lqg437Qy_eY'
   },
   {
     id: 18,
@@ -140,6 +145,7 @@ export const recipesData: Recipe[] = [
       "기호에 따라 들깨가루를 추가합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tWZO",
+    youtubeUrl: 'https://www.youtube.com/watch?v=D-nB5m4o7W4'
   },
   {
     id: 26,
@@ -162,6 +168,7 @@ export const recipesData: Recipe[] = [
       "한소끔 끓으면 새우젓으로 간을 하고 청양고추, 대파를 넣어 마무리합니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/c1ukIE',
+    youtubeUrl: 'https://www.youtube.com/watch?v=685d-q500qM'
   },
   {
     id: 29,
@@ -185,6 +192,7 @@ export const recipesData: Recipe[] = [
       "새우젓이나 소금으로 간을 하고, 청양고추와 대파를 넣어 시원하게 마무리합니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/c1ugOH',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Fj-uPzYQo5c'
   },
   {
     id: 32,
@@ -213,6 +221,7 @@ export const recipesData: Recipe[] = [
       "멸치액젓과 국간장으로 간을 맞춘 후, 마지막으로 후추를 뿌려 마무리합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t4WX",
+    youtubeUrl: 'https://www.youtube.com/watch?v=573aDcT_3gY'
   },
   {
     id: 33,
@@ -239,6 +248,7 @@ export const recipesData: Recipe[] = [
       "마지막으로 어슷 썬 청양고추를 넣고 밥과 함께 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tTPO",
+    youtubeUrl: 'https://www.youtube.com/watch?v=kYJ-JCE2VpQ'
   },
   {
     id: 35,
@@ -270,6 +280,7 @@ export const recipesData: Recipe[] = [
       "그릇에 밥을 담고 뜨거운 국밥을 부어 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tQAG",
+    youtubeUrl: 'https://www.youtube.com/watch?v=N435K5P07Xo'
   },
   {
     id: 36,
@@ -299,6 +310,7 @@ export const recipesData: Recipe[] = [
       "대파가 푹 익으면 간을 보고 부족한 간은 소금으로 맞춘 뒤, 후추를 뿌려 마무리합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1uiWb",
+    youtubeUrl: 'https://www.youtube.com/watch?v=6O15Gg73Pjg'
   },
   {
     id: 37,
@@ -328,6 +340,7 @@ export const recipesData: Recipe[] = [
       "불을 끄기 직전 후춧가루를 뿌린 후 밥 위에 부어 완성합니다. (취향에 따라 참기름 추가)"
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t0YF",
+    youtubeUrl: 'https://www.youtube.com/watch?v=Kz6pGzBqGWo'
   },
   {
     id: 41,
@@ -358,6 +371,7 @@ export const recipesData: Recipe[] = [
       "마무리: 중불로 줄여 3~5분간 걸쭉하게 끓인 뒤, 대파와 청양고추를 넣고 한소끔 더 끓여 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1uiWb",
+    youtubeUrl: 'https://www.youtube.com/watch?v=33n9ExW325M'
   },
   // 2. 난이도: 보통 (★★★☆☆)
   {
@@ -382,6 +396,7 @@ export const recipesData: Recipe[] = [
       "부추, 새우젓, 다대기를 곁들여 간을 맞춥니다."
     ],
     purchaseUrl: 'https://www.coupang.com/np/search?q=%EB%90%BC%EC%A7%80%EA%B5%AD%EB%B0%A5+%EB%B0%80%ED%82%A4%ED%8A%B8',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Fl_y1a5I7_8'
   },
   {
     id: 5,
@@ -405,6 +420,7 @@ export const recipesData: Recipe[] = [
       "부추, 들깨가루, 새우젓을 넣어 간을 맞춰 먹습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tWZO",
+    youtubeUrl: 'https://www.youtube.com/watch?v=vVCH-gN-5y4'
   },
   {
     id: 6,
@@ -428,6 +444,7 @@ export const recipesData: Recipe[] = [
       "대파와 깻잎을 듬뿍 넣어 마무리합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t5GV",
+    youtubeUrl: 'https://www.youtube.com/watch?v=3g-U40t2L3c'
   },
     {
       id: 39,
@@ -455,6 +472,7 @@ export const recipesData: Recipe[] = [
         "밥과 함께 따로 내어(따로국밥) 깍두기나 김치와 곁들여 먹습니다."
       ],
       purchaseUrl: "https://link.coupang.com/a/c1t9aD",
+      youtubeUrl: 'https://www.youtube.com/watch?v=mYyvJjU8fG0'
     },
   {
     id: 8,
@@ -476,6 +494,7 @@ export const recipesData: Recipe[] = [
       "다대기 없이 맑고 진하게 끓여내며, 새우젓과 들깨가루로 간을 하는 것이 특징입니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tWZO",
+    youtubeUrl: 'https://www.youtube.com/watch?v=s9t_zR_3yYg'
   },
   {
     id: 22,
@@ -502,7 +521,8 @@ export const recipesData: Recipe[] = [
       "국물이 끓으면 채 썬 애호박과 양파를 듬뿍 넣습니다.",
       "애호박이 익을 때까지 푹 끓인 후, 국간장이나 새우젓으로 간을 맞춥니다. 밥과 함께 냅니다."
     ],
-    purchaseUrl: "https://link.coupang.com/a/c1ufgv"
+    purchaseUrl: "https://link.coupang.com/a/c1ufgv",
+    youtubeUrl: 'https://www.youtube.com/watch?v=F3zWkY3fC8I'
   },
   {
     id: 27,
@@ -525,6 +545,7 @@ export const recipesData: Recipe[] = [
       "제주도의 대표적인 향토 음식입니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tVOx",
+    youtubeUrl: 'https://www.youtube.com/watch?v=JmXzB2o_iIs'
   },
   {
     id: 28,
@@ -547,6 +568,7 @@ export const recipesData: Recipe[] = [
       "대파를 올리고 새우젓으로 간을 맞춰 먹습니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/c1tSda',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Fl_y1a5I7_8'
   },
   {
     id: 30,
@@ -572,7 +594,8 @@ export const recipesData: Recipe[] = [
       "국물 맛이 어우러지면, 기호에 따라 밀가루/전분물을 살짝 풀어 농도를 맞춥니다.",
       "마지막에 부추를 듬뿍 넣고 밥과 함께 냅니다."
     ],
-    purchaseUrl: "https://link.coupang.com/a/c1tZND",
+    purchaseUrl: "https://link.coupang.com/a/c1MQxQ",
+    youtubeUrl: 'https://www.youtube.com/watch?v=F5K912c2_mI'
   },
   {
     id: 38,
@@ -603,6 +626,7 @@ export const recipesData: Recipe[] = [
       "마지막으로 소금, 후춧가루로 간을 맞춥니다. 그릇에 밥을 담고 국을 부은 뒤, 대파 푸른 부분과 참기름을 올려 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tMG2",
+    youtubeUrl: 'https://www.youtube.com/watch?v=Fj-yVz_wL7I'
   },
   {
     id: 42,
@@ -644,6 +668,7 @@ export const recipesData: Recipe[] = [
       "마지막으로 계란 하나를 풀어 국물에 넣고 너무 휘젓지 말고 살짝 익혀줍니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1uEjp",
+    youtubeUrl: 'https://www.youtube.com/watch?v=F3_--_02aYI'
   },
   // 3. 난이도: 어려움 (★★★★☆)
   {
@@ -667,6 +692,7 @@ export const recipesData: Recipe[] = [
       "마지막에 들깨가루와 대파, 깻잎을 넣습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t6mI",
+    youtubeUrl: 'https://www.youtube.com/watch?v=cpxNZ5BAuwA'
   },
   {
     id: 21,
@@ -690,6 +716,7 @@ export const recipesData: Recipe[] = [
       "마지막으로 뜨거운 국물을 붓고, 위에 부추와 대파를 듬뿍 올려 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t6Tv",
+    youtubeUrl: 'https://www.youtube.com/watch?v=J8uS_2fWb-4'
   },
   {
     id: 31,
@@ -715,6 +742,7 @@ export const recipesData: Recipe[] = [
       "마지막에 대파를 듬뿍 넣고, 소금과 후추로 간을 맞춥니다. 이름처럼 밥은 따로 냅니다 (따로국밥)."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1ukIE",
+    youtubeUrl: 'https://www.youtube.com/watch?v=jW_5ddoWb_M'
   },
   {
     id: 34,
@@ -755,6 +783,7 @@ export const recipesData: Recipe[] = [
       "마무리: 소금 1스푼으로 간을 맞춘 뒤, 손질해둔 나머지 채소(미나리, 양파, 부추, 깻잎, 대파)를 넣고 한소끔 더 끓여 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tZND",
+    youtubeUrl: 'https://www.youtube.com/watch?v=7MZEvF_gQDU'
   },
   // 4. 난이도: 전문가 (★★★★★)
   {
@@ -773,5 +802,6 @@ export const recipesData: Recipe[] = [
       "이 두 가지는 집에서 조리하기 매우 까다롭고(재료 손질, 잡내 제거 등), 전문점에서 포장하거나 밀키트를 활용하시는 것을 강력히 추천합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t3Jx",
+    youtubeUrl: 'https://www.youtube.com/watch?v=y-34p0-nBDE'
   }
 ];
