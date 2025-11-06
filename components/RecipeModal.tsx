@@ -80,6 +80,17 @@ const RecipeModal: React.FC<RecipeModalProps> = ({ recipe, onClose }) => {
             </div>
           </div>
           
+          <div className="mb-6">
+            <h4 className="font-semibold text-lg text-gray-100 mb-2">만드는 법 (Step-by-Step) <span className="text-sm font-normal text-gray-400">(1인분 기준)</span></h4>
+            <ol className="list-decimal list-inside space-y-3 text-gray-300">
+              {recipe.recipeSteps.map((step, index) => (
+                <li key={index} className="leading-relaxed p-2 bg-gray-700 rounded-lg">
+                  {step}
+                </li>
+              ))}
+            </ol>
+          </div>
+
           {(recipe.purchaseUrl || recipe.youtubeUrl) && (
             <div className="mb-6">
               <div className="flex gap-4">
@@ -122,17 +133,6 @@ const RecipeModal: React.FC<RecipeModalProps> = ({ recipe, onClose }) => {
               )}
             </div>
           )}
-
-          <div className="mb-6">
-            <h4 className="font-semibold text-lg text-gray-100 mb-2">만드는 법 (Step-by-Step) <span className="text-sm font-normal text-gray-400">(1인분 기준)</span></h4>
-            <ol className="list-decimal list-inside space-y-3 text-gray-300">
-              {recipe.recipeSteps.map((step, index) => (
-                <li key={index} className="leading-relaxed p-2 bg-gray-700 rounded-lg">
-                  {step}
-                </li>
-              ))}
-            </ol>
-          </div>
           
         </div>
         
