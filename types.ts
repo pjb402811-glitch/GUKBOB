@@ -1,3 +1,4 @@
+export type MainCategory = "국밥" | "볶음밥" | "면";
 export type Difficulty = "쉬움" | "보통" | "어려움" | "전문가";
 
 export interface Ingredient {
@@ -9,7 +10,8 @@ export interface Ingredient {
 export interface Recipe {
   id: number;
   name: string;
-  category: string;
+  mainCategory: MainCategory;
+  subCategory: string;
   difficulty: Difficulty;
   baseServings: number;
   ingredientsList: Ingredient[];

@@ -24,7 +24,7 @@ const RecipeCard: React.FC<RecipeCardProps> = ({ recipe, onSelect }) => {
     >
       <div className="p-5">
         <h3 className="text-xl font-semibold text-indigo-400 mb-2">{recipe.name}</h3>
-        <p className="text-sm text-gray-400 mb-3">{recipe.category}</p>
+        <p className="text-sm text-gray-400 mb-3">{recipe.subCategory}</p>
         <div className="flex justify-between items-center">
           <span className={`px-3 py-1 rounded-full text-sm font-semibold ${getDifficultyClass(recipe.difficulty)}`}>
             난이도: {recipe.difficulty}

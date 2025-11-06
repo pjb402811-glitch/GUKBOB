@@ -5,7 +5,8 @@ export const recipesData: Recipe[] = [
   {
     id: 2,
     name: "콩나물국밥 (전주식)",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -28,7 +29,8 @@ export const recipesData: Recipe[] = [
   {
     id: 3,
     name: "굴국밥",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -47,12 +49,13 @@ export const recipesData: Recipe[] = [
       "불을 끄기 직전 계란을 풀고 부추를 올립니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t19h",
-    youtubeUrl: 'https://www.youtube.com/watch?v=Fj-uPzYQo5c'
+    youtubeUrl: 'https://youtube.com/shorts/3E__Z7LeoiY?si=NGQTRW0y-RO-sPcc'
   },
   {
     id: 40,
     name: "매생이 굴 국밥",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -75,12 +78,13 @@ export const recipesData: Recipe[] = [
       "새우젓이나 소금, 후추로 간을 맞추고 대파를 올립니다. 기호에 따라 계란을 추가해도 좋습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tOgs",
-    youtubeUrl: 'https://www.youtube.com/watch?v=x2ilC3bNqgQ'
+    youtubeUrl: 'https://youtu.be/-7QAr_w2pwE?si=6wHMFhBMQPeZVx9N'
   },
   {
     id: 23,
     name: "김치국밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -99,12 +103,13 @@ export const recipesData: Recipe[] = [
       "국간장, 소금으로 간을 맞추고, 마지막에 대파와 계란을 풀어 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t2TE",
-    youtubeUrl: 'https://www.youtube.com/watch?v=j35-515t-p8'
+    youtubeUrl: 'https://youtu.be/IsvrgIHeau8?si=o1zNYkAVkcqlBulN'
   },
   {
     id: 4,
     name: "소고기뭇국 (국밥식)",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -121,12 +126,13 @@ export const recipesData: Recipe[] = [
       "이름처럼 밥과 국을 따로 내어 먹습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tMG2",
-    youtubeUrl: 'https://www.youtube.com/watch?v=Lqg437Qy_eY'
+    youtubeUrl: 'https://youtu.be/j1VVP9VWYBU?si=xHEk9zjc7kCTrRyp'
   },
   {
     id: 18,
     name: "로제 순대국밥",
-    category: "톡톡 튀는 퓨전 국밥",
+    mainCategory: "국밥",
+    subCategory: "톡톡 튀는 퓨전 국밥",
     difficulty: "쉬움",
     baseServings: 1, 
     ingredientsList: [
@@ -150,7 +156,8 @@ export const recipesData: Recipe[] = [
   {
     id: 26,
     name: "목포 해산물국밥",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -173,7 +180,8 @@ export const recipesData: Recipe[] = [
   {
     id: 29,
     name: "제주 해물국밥",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -192,12 +200,13 @@ export const recipesData: Recipe[] = [
       "새우젓이나 소금으로 간을 하고, 청양고추와 대파를 넣어 시원하게 마무리합니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/c1ugOH',
-    youtubeUrl: 'https://www.youtube.com/watch?v=Fj-uPzYQo5c'
+    youtubeUrl: 'https://youtu.be/CM5PhWOGW0c?si=xnwhWDJKHs2JOSUB'
   },
   {
     id: 32,
     name: "시래기 닭국밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -221,12 +230,13 @@ export const recipesData: Recipe[] = [
       "멸치액젓과 국간장으로 간을 맞춘 후, 마지막으로 후추를 뿌려 마무리합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t4WX",
-    youtubeUrl: 'https://www.youtube.com/watch?v=573aDcT_3gY'
+    youtubeUrl: 'https://youtube.com/shorts/R8L12qGJ4fQ?si=WSnKM_-12jDeMqhC'
   },
   {
     id: 33,
     name: "우삼겹 얼큰국밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -248,12 +258,13 @@ export const recipesData: Recipe[] = [
       "마지막으로 어슷 썬 청양고추를 넣고 밥과 함께 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tTPO",
-    youtubeUrl: 'https://www.youtube.com/watch?v=kYJ-JCE2VpQ'
+    youtubeUrl: 'https://youtube.com/shorts/IaZ6ptSSRDU?si=u3EDpVqfMhLRSqNu'
   },
   {
     id: 35,
     name: "초간단 훈제오리 국밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -280,12 +291,13 @@ export const recipesData: Recipe[] = [
       "그릇에 밥을 담고 뜨거운 국밥을 부어 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tQAG",
-    youtubeUrl: 'https://www.youtube.com/watch?v=N435K5P07Xo'
+    youtubeUrl: 'https://youtu.be/QGRJ-krd8NY?si=Q4gxYsph_1Mmrkn0'
   },
   {
     id: 36,
     name: "대파육계장",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -310,12 +322,13 @@ export const recipesData: Recipe[] = [
       "대파가 푹 익으면 간을 보고 부족한 간은 소금으로 맞춘 뒤, 후추를 뿌려 마무리합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1uiWb",
-    youtubeUrl: 'https://www.youtube.com/watch?v=6O15Gg73Pjg'
+    youtubeUrl: 'https://youtube.com/shorts/rEumUMiwBiI?si=KqlLVTUQC3Lxl13o'
   },
   {
     id: 37,
     name: "대파 참치 국밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 2,
     ingredientsList: [
@@ -340,12 +353,13 @@ export const recipesData: Recipe[] = [
       "불을 끄기 직전 후춧가루를 뿌린 후 밥 위에 부어 완성합니다. (취향에 따라 참기름 추가)"
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t0YF",
-    youtubeUrl: 'https://www.youtube.com/watch?v=Kz6pGzBqGWo'
+    youtubeUrl: 'https://youtu.be/sYYLBiy-k-E?si=lUzTpZqrhjTZOwJv'
   },
   {
     id: 41,
     name: "사장밥 (된장술밥)",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
     baseServings: 1,
     ingredientsList: [
@@ -371,13 +385,14 @@ export const recipesData: Recipe[] = [
       "마무리: 중불로 줄여 3~5분간 걸쭉하게 끓인 뒤, 대파와 청양고추를 넣고 한소끔 더 끓여 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1uiWb",
-    youtubeUrl: 'https://www.youtube.com/watch?v=33n9ExW325M'
+    youtubeUrl: 'https://youtube.com/shorts/lVe8_sFjHu0?si=h08WxugdLgpSjhCy'
   },
   // 2. 난이도: 보통 (★★★☆☆)
   {
     id: 1,
     name: "돼지국밥 (맑은)",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -396,12 +411,13 @@ export const recipesData: Recipe[] = [
       "부추, 새우젓, 다대기를 곁들여 간을 맞춥니다."
     ],
     purchaseUrl: 'https://www.coupang.com/np/search?q=%EB%90%BC%EC%A7%80%EA%B5%AD%EB%B0%A5+%EB%B0%80%ED%82%A4%ED%8A%B8',
-    youtubeUrl: 'https://www.youtube.com/watch?v=Fl_y1a5I7_8'
+    youtubeUrl: 'https://youtu.be/WQHX32fxAJE?si=H_qCNz3exGbgvzju'
   },
   {
     id: 5,
     name: "얼큰 순대국밥 (다대기)",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -420,36 +436,13 @@ export const recipesData: Recipe[] = [
       "부추, 들깨가루, 새우젓을 넣어 간을 맞춰 먹습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tWZO",
-    youtubeUrl: 'https://www.youtube.com/watch?v=vVCH-gN-5y4'
-  },
-  {
-    id: 6,
-    name: "내장국밥",
-    category: "얼큰 칼칼한 국밥",
-    difficulty: "보통",
-    baseServings: 1,
-    ingredientsList: [
-      { name: '삶은 내장 (곱창, 양)', amount: 150, unit: 'g' },
-      { name: '사골 육수', amount: 500, unit: 'ml' },
-      { name: '고춧가루', amount: 1.5, unit: 'T' },
-      { name: '다진 마늘', amount: 1, unit: 'T' },
-      { name: '된장', amount: 0.5, unit: 'T' },
-      { name: '대파/깻잎', amount: 1, unit: '줌' }
-    ],
-    recipeSteps: [
-      "(시판 사골 육수 사용 기준 레시피입니다. 육수를 직접 낼 경우 난이도는 '어려움' 이상이며 6시간 이상 소요됩니다.)",
-      "내장은 밀가루와 소금으로 깨끗이 손질하고 한번 삶아냅니다. (가장 중요)",
-      "냄비에 사골 육수와 손질한 내장을 넣고 푹 끓입니다.",
-      "고춧가루, 된장(0.5T), 국간장, 다진 마늘로 얼큰하게 간을 맞춥니다.",
-      "대파와 깻잎을 듬뿍 넣어 마무리합니다."
-    ],
-    purchaseUrl: "https://link.coupang.com/a/c1t5GV",
-    youtubeUrl: 'https://www.youtube.com/watch?v=3g-U40t2L3c'
+    youtubeUrl: 'https://youtube.com/shorts/30u9ic_9Czo?si=d3nz7wKl3m4qnqEQ'
   },
     {
       id: 39,
       name: "선지국밥",
-      category: "얼큰 칼칼한 국밥",
+      mainCategory: "국밥",
+      subCategory: "얼큰 칼칼한 국밥",
       difficulty: "보통",
       baseServings: 1,
       ingredientsList: [
@@ -472,12 +465,13 @@ export const recipesData: Recipe[] = [
         "밥과 함께 따로 내어(따로국밥) 깍두기나 김치와 곁들여 먹습니다."
       ],
       purchaseUrl: "https://link.coupang.com/a/c1t9aD",
-      youtubeUrl: 'https://www.youtube.com/watch?v=mYyvJjU8fG0'
+      youtubeUrl: 'https://youtube.com/shorts/uReTq3Mr-PQ?si=IPBW5-9f_UPgC9JF'
     },
   {
     id: 8,
     name: "병천 순대국밥 (충남)",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -494,12 +488,13 @@ export const recipesData: Recipe[] = [
       "다대기 없이 맑고 진하게 끓여내며, 새우젓과 들깨가루로 간을 하는 것이 특징입니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tWZO",
-    youtubeUrl: 'https://www.youtube.com/watch?v=s9t_zR_3yYg'
+    youtubeUrl: 'https://youtu.be/mlWQircXDJc?si=xRyhgShDD1zf2Z_9'
   },
   {
     id: 22,
     name: "광주 애호박 국밥 (고추장 찌개식)",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "보통",
     baseServings: 1, 
     ingredientsList: [
@@ -522,12 +517,13 @@ export const recipesData: Recipe[] = [
       "애호박이 익을 때까지 푹 끓인 후, 국간장이나 새우젓으로 간을 맞춥니다. 밥과 함께 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1ufgv",
-    youtubeUrl: 'https://www.youtube.com/watch?v=F3zWkY3fC8I'
+    youtubeUrl: 'https://youtu.be/BmlK4bl6olI?si=sA9-wfYuCJ1k0fS6'
   },
   {
     id: 27,
     name: "제주 몸국 (몸 = 모자반)",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -545,12 +541,13 @@ export const recipesData: Recipe[] = [
       "제주도의 대표적인 향토 음식입니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tVOx",
-    youtubeUrl: 'https://www.youtube.com/watch?v=JmXzB2o_iIs'
+    youtubeUrl: 'https://youtu.be/hE0PKau24dU?si=E6AAlgm_CVQOU-GS'
   },
   {
     id: 28,
     name: "제주 흑돼지국밥",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -568,12 +565,13 @@ export const recipesData: Recipe[] = [
       "대파를 올리고 새우젓으로 간을 맞춰 먹습니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/c1tSda',
-    youtubeUrl: 'https://www.youtube.com/watch?v=Fl_y1a5I7_8'
+    youtubeUrl: 'https://youtu.be/JLt0xWPr3Jg?si=Pr5WEE96L9PRzfEK'
   },
   {
     id: 30,
     name: "올갱이 국밥 (다슬기)",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -595,12 +593,13 @@ export const recipesData: Recipe[] = [
       "마지막에 부추를 듬뿍 넣고 밥과 함께 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1MQxQ",
-    youtubeUrl: 'https://www.youtube.com/watch?v=F5K912c2_mI'
+    youtubeUrl: 'https://youtu.be/76nbkX_DomU?si=KIgo4AIHs0lUNVcU'
   },
   {
     id: 38,
     name: "소고기 시래기 국밥",
-    category: "든든한 맑은 국밥",
+    mainCategory: "국밥",
+    subCategory: "든든한 맑은 국밥",
     difficulty: "보통",
     baseServings: 2,
     ingredientsList: [
@@ -626,12 +625,13 @@ export const recipesData: Recipe[] = [
       "마지막으로 소금, 후춧가루로 간을 맞춥니다. 그릇에 밥을 담고 국을 부은 뒤, 대파 푸른 부분과 참기름을 올려 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tMG2",
-    youtubeUrl: 'https://www.youtube.com/watch?v=Fj-yVz_wL7I'
+    youtubeUrl: 'https://youtu.be/YJkJgSPv8Yo?si=MeZH6i1W75XBR01f'
   },
   {
     id: 42,
     name: "해물 짬뽕밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "보통",
     baseServings: 1,
     ingredientsList: [
@@ -668,13 +668,88 @@ export const recipesData: Recipe[] = [
       "마지막으로 계란 하나를 풀어 국물에 넣고 너무 휘젓지 말고 살짝 익혀줍니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1uEjp",
-    youtubeUrl: 'https://www.youtube.com/watch?v=F3_--_02aYI'
+    youtubeUrl: 'https://youtu.be/cRrv_YLIxEw?si=2Tx_k3c9Pw_ZXe77'
+  },
+  {
+    id: 43,
+    name: "소고기 장터 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
+    difficulty: "보통",
+    baseServings: 4,
+    ingredientsList: [
+      { name: '아롱사태', amount: 600, unit: 'g' },
+      { name: '물', amount: 3, unit: 'L' },
+      { name: '집 된장', amount: 3, unit: 'T' },
+      { name: '멸치액젓', amount: 2, unit: 'T' },
+      { name: '국간장', amount: 2, unit: 'T' },
+      { name: '고춧가루', amount: 5, unit: 'T' },
+      { name: '맛술', amount: 2, unit: 'T' },
+      { name: '소고기 다시다', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 2, unit: 'T' },
+      { name: '무', amount: 300, unit: 'g' },
+      { name: '삶은 우거지', amount: 300, unit: 'g' },
+      { name: '대파', amount: 1, unit: '대' },
+      { name: '청양고추', amount: 2, unit: '개' },
+      { name: '홍고추', amount: 1, unit: '개' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "끓는 물에 아롱사태를 넣고 살짝 데쳐줍니다. (이렇게 하면 핏물을 따로 뺄 필요가 없어요.)",
+      "깨끗한 냄비에 물 3L와 데친 아롱사태를 넣고 1시간 반 동안 푹 끓여줍니다. 이때 처음 물 높이를 기억해두세요.",
+      "1시간 반 뒤, 고기를 건져 한김 식힌 후 결 반대 방향으로 썰어줍니다.",
+      "냄비에 처음 기억해둔 물 높이만큼 물을 추가로 붓습니다.",
+      "물에 집 된장, 멸치액젓, 국간장, 고춧가루, 맛술, 소고기 다시다, 마늘, 썰어둔 아롱사태, 무, 삶은 우거지를 넣고 센 불에서 15분간 끓입니다.",
+      "15분 뒤, 대파, 청양고추, 홍고추, 후추를 넣고 5분 더 끓여주면 완성입니다.",
+      "팁: 국밥은 바로 먹는 것보다 조금 두었다가 먹으면 우거지가 국물에 풀어져 더욱 맛있습니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1NqVR",
+    youtubeUrl: "https://youtube.com/shorts/awXehdHT_G8?si=8_GadVwbHXB37Ubt"
+  },
+  {
+    id: 44,
+    name: "소 내장 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
+    difficulty: "보통",
+    baseServings: 4,
+    ingredientsList: [
+      { name: '한우 내장', amount: 1300, unit: 'g' },
+      { name: '소금 & 밀가루 (세척용)', amount: 0, unit: '약간' },
+      { name: '소주 (데치기/육수용)', amount: 0, unit: '약간' },
+      { name: '육수용 야채 (마늘, 월계수잎, 건고추, 대파, 생강)', amount: 0, unit: ' ' },
+      { name: '무', amount: 0.3, unit: '개' },
+      { name: '대파', amount: 1, unit: '대' },
+      { name: '콩나물', amount: 1, unit: '줌' },
+      { name: '얼갈이배추', amount: 1, unit: '단' },
+      { name: '다진 마늘', amount: 2, unit: 'T' },
+      { name: '된장', amount: 1, unit: 'T' },
+      { name: '고춧가루', amount: 2, unit: 'T' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '소고기 다시다', amount: 1, unit: 'T' },
+      { name: '미원', amount: 0.3, unit: 't' },
+      { name: '고추기름', amount: 2, unit: 'T' },
+      { name: '후추 및 소금', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "내장 손질: 내장에 소금과 밀가루를 넣고 냄새와 불순물이 제거되도록 바락바락 주무릅니다. 기름 덩어리 등을 제거하고, 냄새가 나지 않을 때까지 깨끗하게 헹굽니다.",
+      "1차 삶기(데치기): 깨끗이 씻은 내장을 냄비에 넣고 물을 잠길 만큼 붓습니다. 소주를 두세 바퀴 둘러 넣고, 물이 끓기 시작하면 15분간 끓여줍니다.",
+      "15분 뒤 물은 모두 버리고, 냄비와 내장을 다시 한번 깨끗하게 씻어 불순물을 제거합니다.",
+      "2차 삶기(육수내기): 깨끗한 냄비에 씻은 내장과 새 물을 붓습니다. 육수용 야채(통마늘, 월계수잎, 건고추, 대파, 생강)를 넣고, 소주를 다시 부어 끓입니다. (압력솥 30분, 일반 솥 1시간 20분)",
+      "부재료 준비: 내장이 삶아지는 동안 무, 파를 썰어 준비합니다. 얼갈이는 끓는 물에 데쳐 풋내를 제거한 뒤 찬물에 헹궈 준비합니다.",
+      "다대기 양념장 만들기: 분량의 재료(다진 마늘, 된장, 고춧가루, 국간장, 다시다, 미원, 고추기름, 후추)를 섞어 다대기 양념장을 만듭니다.",
+      "내장탕 끓이기: 다 삶아진 내장은 건져 먹기 좋게 썰고, 육수는 기름을 걷어냅니다. 육수에 무, 파, 데친 얼갈이, 양념장을 넣고 무가 익을 때까지 약 10분간 끓입니다.",
+      "마지막으로 콩나물과 썰어둔 내장을 넣고 한소끔 더 끓인 뒤, 소금으로 간을 맞춥니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c1N7ds",
+    youtubeUrl: "https://youtu.be/1i6hM7rJePA?si=BkUNrA8OdZlU3l1C"
   },
   // 3. 난이도: 어려움 (★★★★☆)
   {
     id: 7,
     name: "뼈해장국 (감자탕)",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "어려움",
     baseServings: 1,
     ingredientsList: [
@@ -692,12 +767,13 @@ export const recipesData: Recipe[] = [
       "마지막에 들깨가루와 대파, 깻잎을 넣습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t6mI",
-    youtubeUrl: 'https://www.youtube.com/watch?v=cpxNZ5BAuwA'
+    youtubeUrl: 'https://youtu.be/1gDK0w1Er1o?si=u1cKr39S2hYk5rOd'
   },
   {
     id: 21,
     name: "진주식 빨간 머리국밥",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "어려움",
     baseServings: 1,
     ingredientsList: [
@@ -716,12 +792,13 @@ export const recipesData: Recipe[] = [
       "마지막으로 뜨거운 국물을 붓고, 위에 부추와 대파를 듬뿍 올려 냅니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t6Tv",
-    youtubeUrl: 'https://www.youtube.com/watch?v=J8uS_2fWb-4'
+    youtubeUrl: 'https://youtu.be/Xuao8ub6z3s?si=yuWA2TMl3f5dGc1f'
   },
   {
     id: 31,
     name: "대구식 따로국밥",
-    category: "얼큰 칼칼한 국밥",
+    mainCategory: "국밥",
+    subCategory: "얼큰 칼칼한 국밥",
     difficulty: "어려움",
     baseServings: 1,
     ingredientsList: [
@@ -742,12 +819,13 @@ export const recipesData: Recipe[] = [
       "마지막에 대파를 듬뿍 넣고, 소금과 후추로 간을 맞춥니다. 이름처럼 밥은 따로 냅니다 (따로국밥)."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1ukIE",
-    youtubeUrl: 'https://www.youtube.com/watch?v=jW_5ddoWb_M'
+    youtubeUrl: 'https://youtu.be/c5p1anbDp8o?si=KW0RcCaUJ_7uRYcx'
   },
   {
     id: 34,
     name: "광주식 오리국밥",
-    category: "지역별/특별 국밥",
+    mainCategory: "국밥",
+    subCategory: "지역별/특별 국밥",
     difficulty: "어려움",
     baseServings: 4,
     ingredientsList: [
@@ -783,25 +861,112 @@ export const recipesData: Recipe[] = [
       "마무리: 소금 1스푼으로 간을 맞춘 뒤, 손질해둔 나머지 채소(미나리, 양파, 부추, 깻잎, 대파)를 넣고 한소끔 더 끓여 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1tZND",
-    youtubeUrl: 'https://www.youtube.com/watch?v=7MZEvF_gQDU'
+    youtubeUrl: 'https://youtu.be/JdsdP3-W9AA?si=akrNUk5gRh5fEFK2'
   },
-  // 4. 난이도: 전문가 (★★★★★)
+  // 볶음밥
   {
-    id: 17,
-    name: "곰탕 / 설렁탕",
-    category: "뽀얀 국물 (고급)",
-    difficulty: "전문가",
-    baseServings: 1,
-    ingredientsList: [
-      { name: '시판 곰탕/설렁탕 팩', amount: 1, unit: '팩' },
-      { name: '소면 (선택)', amount: 50, unit: 'g' },
-      { name: '대파 (송송)', amount: 1, unit: '줌' },
-      { name: '소금/후추', amount: 0, unit: '약간' }
-    ],
-    recipeSteps: [
-      "이 두 가지는 집에서 조리하기 매우 까다롭고(재료 손질, 잡내 제거 등), 전문점에서 포장하거나 밀키트를 활용하시는 것을 강력히 추천합니다."
-    ],
-    purchaseUrl: "https://link.coupang.com/a/c1t3Jx",
-    youtubeUrl: 'https://www.youtube.com/watch?v=y-34p0-nBDE'
+      id: 101,
+      name: "김치볶음밥",
+      mainCategory: "볶음밥",
+      subCategory: "클래식 볶음밥",
+      difficulty: "쉬움",
+      baseServings: 1,
+      ingredientsList: [
+        { name: '밥', amount: 1, unit: '공기' },
+        { name: '신김치', amount: 150, unit: 'g' },
+        { name: '돼지고기 또는 햄', amount: 50, unit: 'g' },
+        { name: '양파', amount: 0.25, unit: '개' },
+        { name: '식용유', amount: 2, unit: 'T' },
+        { name: '계란', amount: 1, unit: '개' },
+        { name: '참기름', amount: 1, unit: 't' }
+      ],
+      recipeSteps: [
+        "김치와 돼지고기(햄), 양파를 잘게 썹니다.",
+        "팬에 식용유를 두르고 양파와 돼지고기를 볶아줍니다.",
+        "고기가 익으면 김치를 넣고 함께 볶습니다. (김치국물을 조금 넣으면 더 맛있어요)",
+        "밥을 넣고 주걱으로 잘 섞어가며 볶아줍니다.",
+        "불을 끄고 참기름을 둘러 마무리합니다. 계란 후라이를 올려 함께 드세요."
+      ],
+      purchaseUrl: "https://link.coupang.com/a/b41Fau",
+      youtubeUrl: 'https://www.youtube.com/watch?v=sO4z2aQ_L9w'
+  },
+  {
+      id: 102,
+      name: "새우볶음밥",
+      mainCategory: "볶음밥",
+      subCategory: "해물 볶음밥",
+      difficulty: "쉬움",
+      baseServings: 1,
+      ingredientsList: [
+          { name: '밥', amount: 1, unit: '공기' },
+          { name: '칵테일 새우', amount: 80, unit: 'g' },
+          { name: '계란', amount: 1, unit: '개' },
+          { name: '대파', amount: 0.25, unit: '대' },
+          { name: '굴소스', amount: 1, unit: 'T' },
+          { name: '소금', amount: 0, unit: '약간' },
+          { name: '후추', amount: 0, unit: '약간' },
+      ],
+      recipeSteps: [
+          "대파는 송송 썰어 기름에 볶아 파기름을 냅니다.",
+          "계란을 풀어 스크램블 에그를 만들어 잠시 덜어둡니다.",
+          "파기름에 해동한 새우를 넣고 소금, 후추로 간하며 볶습니다.",
+          "새우가 익으면 밥과 굴소스를 넣고 잘 볶아줍니다.",
+          "마지막에 만들어둔 스크램블 에그를 넣고 가볍게 섞어 마무리합니다."
+      ],
+      purchaseUrl: 'https://link.coupang.com/a/b41FhU',
+      youtubeUrl: 'https://www.youtube.com/watch?v=d_2A-Sa4a8w'
+  },
+  // 면
+  {
+      id: 201,
+      name: "잔치국수",
+      mainCategory: "면",
+      subCategory: "따뜻한 국물 국수",
+      difficulty: "보통",
+      baseServings: 1,
+      ingredientsList: [
+          { name: '소면', amount: 100, unit: 'g' },
+          { name: '멸치/다시마 육수', amount: 500, unit: 'ml' },
+          { name: '애호박', amount: 30, unit: 'g' },
+          { name: '당근', amount: 20, unit: 'g' },
+          { name: '계란 지단', amount: 0.5, unit: '개' },
+          { name: '국간장', amount: 1, unit: 'T' },
+      ],
+      recipeSteps: [
+          "멸치, 다시마로 육수를 진하게 우려낸 후 국간장과 소금으로 간을 합니다.",
+          "애호박과 당근은 채 썰어 살짝 볶아 준비합니다.",
+          "계란은 흰자와 노른자를 분리하여 지단을 부쳐 채 썹니다.",
+          "소면을 삶아 찬물에 헹궈 물기를 뺍니다.",
+          "그릇에 소면을 담고 뜨거운 육수를 부은 뒤, 준비한 고명을 올려 완성합니다."
+      ],
+      purchaseUrl: 'https://link.coupang.com/a/b41FmS',
+      youtubeUrl: 'https://www.youtube.com/watch?v=FqgqX3P6n-E'
+  },
+  {
+      id: 202,
+      name: "비빔국수",
+      mainCategory: "면",
+      subCategory: "매콤한 비빔 국수",
+      difficulty: "쉬움",
+      baseServings: 1,
+      ingredientsList: [
+          { name: '소면', amount: 100, unit: 'g' },
+          { name: '신김치', amount: 80, unit: 'g' },
+          { name: '오이', amount: 0.25, unit: '개' },
+          { name: '삶은 계란', amount: 0.5, unit: '개' },
+          { name: '고추장', amount: 1.5, unit: 'T' },
+          { name: '설탕', amount: 1, unit: 'T' },
+          { name: '식초', amount: 1, unit: 'T' },
+          { name: '참기름', amount: 1, unit: 't' },
+      ],
+      recipeSteps: [
+          "소면을 삶아 찬물에 헹궈 물기를 뺍니다.",
+          "김치는 송송 썰고, 오이는 채 썹니다.",
+          "그릇에 고추장, 설탕, 식초, 참기름을 넣고 잘 섞어 양념장을 만듭니다.",
+          "삶은 소면에 양념장과 김치를 넣고 비벼줍니다.",
+          "그릇에 담고 채 썬 오이와 삶은 계란을 올려 마무리합니다."
+      ],
+      purchaseUrl: 'https://link.coupang.com/a/b41FxV',
+      youtubeUrl: 'https://www.youtube.com/watch?v=Ixs_W0qAAbQ'
   }
 ];

@@ -39,7 +39,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({ recipe, onClose }) => {
           <div className="flex justify-between items-start mb-4">
             <div>
               <h2 className="text-3xl font-bold text-white mb-1">{recipe.name}</h2>
-              <p className="text-md text-gray-400">{recipe.category}</p>
+              <p className="text-md text-gray-400">{recipe.subCategory}</p>
             </div>
             <button
               onClick={onClose}
