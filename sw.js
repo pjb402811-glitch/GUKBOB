@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gukbap-recipe-cache-v7'; // Cache version updated
+const CACHE_NAME = 'gukbap-recipe-cache-v8'; // Cache version updated
 const urlsToCache = [
   '/',
   '/index.html',
@@ -14,9 +14,6 @@ const urlsToCache = [
   '/icon-192x192.png',
   '/icon-512x512.png',
   '/apple-touch-icon.png',
-  '/apple-touch-icon-167x167.png',
-  '/apple-touch-icon-152x152.png',
-  '/apple-touch-icon-120x120.png',
   'https://cdn.tailwindcss.com'
 ];
 
