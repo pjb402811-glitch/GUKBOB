@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gukbap-recipe-cache-v8'; // Cache version updated
+const CACHE_NAME = 'gukbap-recipe-cache-v9'; // Cache version updated
 const urlsToCache = [
   '/',
   '/index.html',
