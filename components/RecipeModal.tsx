@@ -95,7 +95,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({ recipe, onClose }) => {
                             <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H4.72l-.38-1.52A1 1 0 003 1z" />
                             <path d="M16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
                         </svg>
-                        핵심재료 구매 클릭
+                        <span className="text-center leading-tight">핵심<br/>재료<br/>구매<br/>하기</span>
                     </a>
                   </div>
                 )}
@@ -110,7 +110,7 @@ const RecipeModal: React.FC<RecipeModalProps> = ({ recipe, onClose }) => {
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 mr-2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.972l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
                       </svg>
-                      영상보고 따라하기
+                      <span className="text-center leading-tight">영상<br/>보고<br/>따라<br/>하기</span>
                     </a>
                   </div>
                 )}
