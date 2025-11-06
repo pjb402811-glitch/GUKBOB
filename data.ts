@@ -387,6 +387,29 @@ export const recipesData: Recipe[] = [
     purchaseUrl: "https://link.coupang.com/a/c1uiWb",
     youtubeUrl: 'https://youtube.com/shorts/lVe8_sFjHu0?si=h08WxugdLgpSjhCy'
   },
+  {
+    id: 221,
+    name: "포항 구룡포 모리 국수",
+    mainCategory: "면",
+    subCategory: "얼큰한 국물 국수",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '칼국수 면', amount: 1, unit: '인분' },
+      { name: '대게', amount: 0.5, unit: '마리' },
+      { name: '홍합, 오징어, 새우', amount: 1, unit: '줌' },
+      { name: '우럭, 도다리 등 생선', amount: 50, unit: 'g' },
+      { name: '고춧가루', amount: 2, unit: 'T' },
+      { name: '각종 채소', amount: 1, unit: '줌' }
+    ],
+    recipeSteps: [
+      "큰 냄비에 그날 잡힌 싱싱한 해산물(대게, 생선, 홍합 등)을 넣고 끓입니다.",
+      "얼큰하게 고춧가루 양념을 하고 채소를 넣습니다.",
+      "국물이 우러나면 칼국수 면을 넣고 걸쭉하게 끓여냅니다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95glL',
+    youtubeUrl: 'https://www.youtube.com/watch?v=l_NqW9K4VwA'
+  },
   // 2. 난이도: 보통 (★★★☆☆)
   {
     id: 1,
@@ -744,6 +767,386 @@ export const recipesData: Recipe[] = [
     purchaseUrl: "https://link.coupang.com/a/c1N7ds",
     youtubeUrl: "https://youtu.be/1i6hM7rJePA?si=BkUNrA8OdZlU3l1C"
   },
+  {
+    id: 105,
+    name: "소고기 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "고기 볶음밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '소고기 다짐육', amount: 100, unit: 'g' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '계란', amount: 1, unit: '개' },
+      { name: '양파', amount: 0.25, unit: '개' },
+      { name: '당근', amount: 30, unit: 'g' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '굴소스', amount: 1, unit: 'T' },
+      { name: '간장', amount: 1, unit: 't' },
+      { name: '설탕', amount: 0.5, unit: 't' },
+      { name: '다진 마늘', amount: 0.5, unit: 't' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "소고기에 간장, 설탕, 다진 마늘, 후추로 밑간을 해둡니다.",
+      "팬에 기름을 두르고 파를 볶아 파기름을 냅니다.",
+      "다진 양파와 당근을 넣고 볶다가, 한쪽에서 계란 스크램블을 만들어 섞습니다.",
+      "밑간한 소고기를 넣고 핏기가 없어질 때까지 볶습니다.",
+      "찬밥을 넣고 볶다가 굴소스로 간을 하고 후추를 뿌려 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yWpS",
+    youtubeUrl: "https://www.youtube.com/watch?v=Qy9Z_BqRyfk"
+  },
+  {
+    id: 107,
+    name: "불닭 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "소스/퓨전 볶음밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '닭고기', amount: 100, unit: 'g' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '양배추', amount: 50, unit: 'g' },
+      { name: '깻잎', amount: 5, unit: '장' },
+      { name: '모차렐라 치즈', amount: 50, unit: 'g' },
+      { name: '고추장', amount: 1, unit: 'T' },
+      { name: '간장', amount: 1, unit: 'T' },
+      { name: '설탕', amount: 1, unit: 'T' },
+      { name: '고춧가루', amount: 1, unit: 'T' },
+      { name: '다진 마늘', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+      "고추장, 간장, 설탕, 고춧가루, 다진 마늘을 섞어 양념장을 만듭니다.",
+      "팬에 기름을 두르고 파기름을 낸 후, 닭고기와 채 썬 양배추를 볶습니다.",
+      "닭고기가 익으면 양념장을 넣고 볶아줍니다.",
+      "찬밥을 넣고 양념과 잘 섞이도록 볶습니다.",
+      "불을 끄고 채 썬 깻잎을 섞은 후, 모차렐라 치즈를 올려 뚜껑을 덮고 녹여줍니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yWGR",
+    youtubeUrl: "https://www.youtube.com/watch?v=fIpC6jMMgqE"
+  },
+  {
+    id: 109,
+    name: "나시고랭",
+    mainCategory: "볶음밥",
+    subCategory: "소스/퓨전 볶음밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '새우', amount: 50, unit: 'g' },
+      { name: '닭고기', amount: 50, unit: 'g' },
+      { name: '숙주', amount: 1, unit: '줌' },
+      { name: '양파', amount: 0.25, unit: '개' },
+      { name: '계란 프라이', amount: 1, unit: '개' },
+      { name: '케찹 마니스 (또는 대체 소스)', amount: 2, unit: 'T' },
+      { name: '피시 소스 (선택)', amount: 1, unit: 't' }
+    ],
+    recipeSteps: [
+      "케찹 마니스 대체 소스: 간장 1T, 굴소스 1T, 설탕 1T를 섞습니다.",
+      "팬에 기름을 두르고 파기름을 낸 후, 닭고기, 새우, 양파를 볶습니다.",
+      "재료가 익으면 찬밥을 넣고 볶다가 소스를 부어 골고루 섞습니다.",
+      "불을 끄기 직전에 숙주를 넣어 살짝 숨만 죽입니다.",
+      "그릇에 담고 반숙 계란 프라이를 올려 완성합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yWUf",
+    youtubeUrl: "https://www.youtube.com/watch?v=mPCJbYY7A2Q"
+  },
+  {
+    id: 110,
+    name: "오므라이스",
+    mainCategory: "볶음밥",
+    subCategory: "소스/퓨전 볶음밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '햄', amount: 50, unit: 'g' },
+      { name: '양파', amount: 0.25, unit: '개' },
+      { name: '당근', amount: 30, unit: 'g' },
+      { name: '완두콩 (선택)', amount: 1, unit: 'T' },
+      { name: '계란', amount: 2, unit: '개' },
+      { name: '케첩', amount: 3, unit: 'T' },
+      { name: '우스터소스 (or 굴소스)', amount: 1, unit: 'T' },
+      { name: '버터', amount: 1, unit: 't' }
+    ],
+    recipeSteps: [
+      "햄과 채소는 잘게 다집니다.",
+      "팬에 기름을 두르고 파기름을 낸 후, 햄과 채소를 볶습니다.",
+      "채소가 익으면 케첩과 우스터소스를 넣고 살짝 끓여 신맛을 날립니다.",
+      "찬밥을 넣고 볶다가 버터를 넣어 마무리한 후 그릇에 모양을 잡아 담습니다.",
+      "계란을 풀어 얇은 지단을 부치거나 부드러운 스크램블을 만들어 밥 위에 덮고 케첩을 뿌립니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yW3S",
+    youtubeUrl: "https://www.youtube.com/watch?v=jWzG-n2yZ-s"
+  },
+  {
+    id: 111,
+    name: "파인애플 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "소스/퓨전 볶음밥",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '새우', amount: 50, unit: 'g' },
+      { name: '닭고기', amount: 50, unit: 'g' },
+      { name: '파인애플', amount: 50, unit: 'g' },
+      { name: '파프리카', amount: 30, unit: 'g' },
+      { name: '캐슈넛', amount: 1, unit: 'T' },
+      { name: '피시 소스 (액젓)', amount: 1, unit: 'T' },
+      { name: '굴소스', amount: 1, unit: 'T' },
+      { name: '카레 가루', amount: 1, unit: 't' }
+    ],
+    recipeSteps: [
+      "팬에 기름을 두르고 파기름을 낸 후, 닭고기와 새우, 파프리카를 볶습니다.",
+      "재료가 익으면 찬밥을 넣고 볶습니다.",
+      "피시 소스, 굴소스, 카레 가루를 넣고 골고루 섞어줍니다.",
+      "마지막에 파인애플과 캐슈넛을 넣고 가볍게 볶아 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXbY",
+    youtubeUrl: "https://www.youtube.com/watch?v=rC7qJp_72yA"
+  },
+  {
+    id: 201,
+    name: "잔치국수",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '소면', amount: 100, unit: 'g' },
+        { name: '멸치/다시마 육수', amount: 500, unit: 'ml' },
+        { name: '애호박', amount: 30, unit: 'g' },
+        { name: '당근', amount: 20, unit: 'g' },
+        { name: '계란 지단', amount: 0.5, unit: '개' },
+        { name: '국간장', amount: 1, unit: 'T' },
+    ],
+    recipeSteps: [
+        "멸치, 다시마 등으로 맑은 육수를 내어 국간장/소금으로 간을 맞춘다.",
+        "소면을 삶아 찬물에 헹군 뒤 그릇에 담는다.",
+        "볶은 애호박, 당근, 계란 지단 등 고명을 올린다.",
+        "뜨거운 육수를 부어 완성한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b9487b',
+    youtubeUrl: 'https://www.youtube.com/watch?v=FqgqX3P6n-E'
+  },
+  {
+    id: 204,
+    name: "바지락 칼국수",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '칼국수 생면', amount: 150, unit: 'g' },
+        { name: '바지락 (해감)', amount: 200, unit: 'g' },
+        { name: '애호박', amount: 50, unit: 'g' },
+        { name: '감자', amount: 0.5, unit: '개' },
+        { name: '멸치/다시마 육수', amount: 600, unit: 'ml' },
+        { name: '다진 마늘', amount: 1, unit: 't' }
+    ],
+    recipeSteps: [
+        "멸치 육수에 감자를 넣고 끓이다가 칼국수 면의 전분기를 털어내고 넣는다.",
+        "면이 반쯤 익으면 애호박, 다진 마늘, 바지락을 넣고 끓인다.",
+        "바지락이 입을 벌리면 국간장이나 소금으로 간을 맞춘다.",
+        "대파를 넣고 한소끔 더 끓여 완성한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b949t1',
+    youtubeUrl: 'https://www.youtube.com/watch?v=kYpY-I-A-lU'
+  },
+  {
+    id: 208,
+    name: "일본 라멘",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '라멘 생면', amount: 1, unit: '인분' },
+        { name: '차슈 (or 삼겹살)', amount: 50, unit: 'g' },
+        { name: '맛계란', amount: 1, unit: '개' },
+        { name: '숙주, 대파', amount: 1, unit: '줌' },
+        { name: '시판 사골 육수', amount: 400, unit: 'ml' },
+        { name: '일본 된장 (미소)', amount: 1, unit: 'T' },
+        { name: '간장', amount: 1, unit: 't' }
+    ],
+    recipeSteps: [
+        "팬에 마늘(선택)을 볶다 사골 육수와 미소, 간장, 맛술(선택)을 풀어 끓인다.",
+        "삶은 면을 그릇에 담고 뜨거운 육수를 붓는다.",
+        "준비한 차슈, 맛계란, 숙주, 대파 등 고명을 올린다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b9497d',
+    youtubeUrl: 'https://www.youtube.com/watch?v=0tzo22y2iXo'
+  },
+  {
+    id: 209,
+    name: "락사",
+    mainCategory: "면",
+    subCategory: "얼큰한 국물 국수",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '쌀국수면', amount: 100, unit: 'g' },
+        { name: '새우', amount: 50, unit: 'g' },
+        { name: '닭고기', amount: 50, unit: 'g' },
+        { name: '숙주', amount: 1, unit: '줌' },
+        { name: '유부', amount: 2, unit: '개' },
+        { name: '시판 락사 페이스트', amount: 2, unit: 'T' },
+        { name: '코코넛 밀크', amount: 200, unit: 'ml' },
+        { name: '닭 육수', amount: 200, unit: 'ml' }
+    ],
+    recipeSteps: [
+        "팬에 락사 페이스트를 볶아 향을 낸다.",
+        "닭 육수와 코코넛 밀크를 붓고 끓인다.",
+        "새우, 닭고기, 유부를 넣어 익힌다.",
+        "삶은 면 위에 국물을 붓고 숙주, 고수(선택)를 올린다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95akR',
+    youtubeUrl: 'https://www.youtube.com/watch?v=7M0i6R-5Xp8'
+  },
+  {
+    id: 212,
+    name: "팟타이",
+    mainCategory: "면",
+    subCategory: "소스가 핵심인 면요리",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '쌀국수 면 (넓적한 것)', amount: 80, unit: 'g' },
+        { name: '새우', amount: 50, unit: 'g' },
+        { name: '계란', amount: 1, unit: '개' },
+        { name: '숙주, 부추', amount: 1, unit: '줌' },
+        { name: '땅콩 분태', amount: 1, unit: 'T' },
+        { name: '팟타이 소스 (시판)', amount: 3, unit: 'T' }
+    ],
+    recipeSteps: [
+        "면은 미리 불린다.",
+        "팬에 새우, 두부(선택)를 볶고 한쪽에서 계란 스크램블을 만든다.",
+        "불린 면과 소스를 넣고 센 불에 빠르게 볶는다.",
+        "마지막에 숙주, 부추를 넣고 잔열로 익힌 뒤 땅콩가루를 뿌린다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95beW',
+    youtubeUrl: 'https://www.youtube.com/watch?v=1oW2W-nL-u4'
+  },
+  {
+    id: 215,
+    name: "까르보나라 (전통식)",
+    mainCategory: "면",
+    subCategory: "파스타",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '스파게티 면', amount: 100, unit: 'g' },
+        { name: '관찰레 (or 베이컨)', amount: 50, unit: 'g' },
+        { name: '페코리노 로마노 치즈', amount: 30, unit: 'g' },
+        { name: '계란 노른자', amount: 2, unit: '개' },
+        { name: '통후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+        "관찰레(베이컨)는 바싹 볶는다.",
+        "볼에 계란 노른자, 간 치즈, 후추를 섞어둔다.",
+        "삶은 면을 볼에 넣고 면수와 베이컨 기름을 조금씩 추가하며 빠르게 비벼 잔열로 소스를 만든다.",
+        "(주의: 불 위에 올리면 계란이 익어 스크램블이 될 수 있다)"
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95b3d',
+    youtubeUrl: 'https://www.youtube.com/watch?v=zL3wW-20E2c'
+  },
+  {
+    id: 217,
+    name: "새우 크림 파스타",
+    mainCategory: "면",
+    subCategory: "파스타",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '페투치네 면', amount: 100, unit: 'g' },
+        { name: '새우', amount: 80, unit: 'g' },
+        { name: '양파', amount: 0.25, unit: '개' },
+        { name: '마늘 (편)', amount: 2, unit: '쪽' },
+        { name: '생크림', amount: 100, unit: 'ml' },
+        { name: '우유', amount: 100, unit: 'ml' },
+        { name: '파마산 치즈', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+        "팬에 오일, 마늘, 양파를 볶다 새우, 브로콜리(선택)를 볶는다.",
+        "생크림과 우유(or 면수)를 1:1로 붓고 끓인다.",
+        "소스가 끓으면 삶은 면과 파마산 치즈를 넣고 끓여 농도를 맞춘다.",
+        "소금, 후추로 간을 하고 마무리한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95cuH',
+    youtubeUrl: 'https://www.youtube.com/watch?v=vVqy-D2vzyE'
+  },
+  {
+    id: 219,
+    name: "팥 칼국수",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "보통",
+    baseServings: 2,
+    ingredientsList: [
+      { name: '팥', amount: 350, unit: 'g' },
+      { name: '칼국수 생면', amount: 300, unit: 'g' },
+      { name: '물 (팥 삶을 물)', amount: 1800, unit: 'ml' },
+      { name: '소금', amount: 0.5, unit: 'T' },
+      { name: '찹쌀가루 (새알심용, 선택)', amount: 50, unit: 'g' },
+      { name: '설탕 (취향껏, 선택)', amount: 0, unit: 'g' }
+    ],
+    recipeSteps: [
+      "팥 준비: 팥(350g)을 깨끗이 씻어 4시간 이상 불립니다. 냄비에 불린 팥과 물을 넣고 끓어오르면 첫 물은 버려 떫은 맛을 제거합니다.",
+      "팥 삶기: 다시 팥과 물(약 8~10컵)을 넣고, 중약불에서 팥알이 쉽게 으깨질 때까지 1시간~1시간 반 동안 푹 삶아줍니다.",
+      "팥물 만들기: 삶은 팥을 삶은 물과 함께 믹서에 곱게 갑니다. 부드러운 국물을 원하면 체에 걸러 껍질을 제거하고, 진한 맛을 원하면 그대로 사용합니다.",
+      "새알심 만들기 (선택): 찹쌀가루에 뜨거운 물로 익반죽하여 동그랗게 새알심을 만듭니다.",
+      "끓이기: 냄비에 팥물을 붓고 중불에서 계속 저어줍니다. 끓기 시작하면 칼국수 면과 새알심을 넣고, 면이 익을 때까지(약 7~10분) 눌어붙지 않게 계속 저어줍니다.",
+      "마무리: 면이 다 익으면 소금으로 간을 맞춥니다. 먹을 때 취향에 따라 소금이나 설탕을 추가해 드세요."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95cyQ',
+    youtubeUrl: 'https://www.youtube.com/watch?v=kRk7221y3lQ'
+  },
+  {
+    id: 222,
+    name: "태백 도토리 국수",
+    mainCategory: "면",
+    subCategory: "지역별/특별 국수",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '도토리 가루', amount: 100, unit: 'g' },
+      { name: '밀가루', amount: 50, unit: 'g' },
+      { name: '된장', amount: 2, unit: 'T' },
+      { name: '시래기', amount: 1, unit: '줌' },
+      { name: '물', amount: 600, unit: 'ml' },
+    ],
+    recipeSteps: [
+      "된장을 푼 물에 시래기 등을 넣고 끓여 육수를 만듭니다.",
+      "도토리 가루와 밀가루를 섞어 반죽한 뒤, 밀대로 밀어 칼국수처럼 썰어냅니다.",
+      "만들어진 면을 된장 육수에 넣고 끓여 완성합니다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95gCS',
+    youtubeUrl: 'https://www.youtube.com/watch?v=6K_K5Y1L13g'
+  },
+  {
+    id: 223,
+    name: "고성 동치미 메밀 국수",
+    mainCategory: "면",
+    subCategory: "시원한 국물 국수",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '메밀면', amount: 1, unit: '인분' },
+      { name: '동치미 국물', amount: 400, unit: 'ml' },
+      { name: '무', amount: 50, unit: 'g' },
+      { name: '김치 국물 (선택)', amount: 50, unit: 'ml' }
+    ],
+    recipeSteps: [
+      "국수틀로 뽑아낸 메밀면을 끓는 물에 바로 삶아 헹군다. (시판 메밀면으로 대체 가능)",
+      "그릇에 면을 담고 차가운 동치미 국물을 붓는다.",
+      "기호에 따라 김치 국물을 타서 먹기도 한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95hba',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Ew1t-9A5hQ4'
+  },
   // 3. 난이도: 어려움 (★★★★☆)
   {
     id: 7,
@@ -863,6 +1266,239 @@ export const recipesData: Recipe[] = [
     purchaseUrl: "https://link.coupang.com/a/c1tZND",
     youtubeUrl: 'https://youtu.be/JdsdP3-W9AA?si=akrNUk5gRh5fEFK2'
   },
+  {
+    id: 207,
+    name: "짬뽕",
+    mainCategory: "면",
+    subCategory: "얼큰한 국물 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '중화면', amount: 150, unit: 'g' },
+        { name: '해물믹스', amount: 100, unit: 'g' },
+        { name: '돼지고기', amount: 50, unit: 'g' },
+        { name: '양파, 배추, 애호박', amount: 1, unit: '줌' },
+        { name: '닭/사골 육수', amount: 500, unit: 'ml' },
+        { name: '고춧가루', amount: 2, unit: 'T' },
+        { name: '다진 마늘', amount: 1, unit: 'T' },
+        { name: '굴소스', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+        "팬에 기름, 마늘, 고춧가루, 돼지고기를 볶아 고추기름을 낸다.",
+        "센 불에 채소와 해물, 청주(선택)를 볶아 불향을 낸다.",
+        "육수를 붓고 끓인 뒤 굴소스/간장으로 간을 맞춘다.",
+        "삶은 면 위에 완성된 짬뽕 국물을 부어준다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b949Wv',
+    youtubeUrl: 'https://www.youtube.com/watch?v=0kG3P712-O8'
+  },
+  {
+    id: 211,
+    name: "짜장면",
+    mainCategory: "면",
+    subCategory: "소스가 핵심인 면요리",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '중화면', amount: 1, unit: '인분' },
+        { name: '춘장', amount: 2, unit: 'T' },
+        { name: '돼지고기 다짐육', amount: 80, unit: 'g' },
+        { name: '양파 (듬뿍)', amount: 1, unit: '개' },
+        { name: '감자, 애호박', amount: 50, unit: 'g' },
+        { name: '설탕', amount: 1, unit: 'T' },
+        { name: '굴소스', amount: 1, unit: 'T' },
+        { name: '전분물', amount: 2, unit: 'T' }
+    ],
+    recipeSteps: [
+        "기름에 춘장을 튀기듯 볶아 따로 둔다.",
+        "팬에 파기름을 내고 돼지고기, 깍둑 썬 채소를 볶는다.",
+        "볶은 춘장, 굴소스, 설탕을 넣고, 물을 붓고 끓인다.",
+        "전분물로 농도를 맞춘 뒤 삶은 면 위에 부어 비벼 먹는다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95aWd',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Zc-n52k6-g0'
+  },
+  {
+    id: 220,
+    name: "안동 건진 국수",
+    mainCategory: "면",
+    subCategory: "지역별/특별 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밀가루', amount: 70, unit: 'g' },
+      { name: '콩가루', amount: 30, unit: 'g' },
+      { name: '소 양지머리', amount: 150, unit: 'g' },
+      { name: '계란 지단', amount: 0.5, unit: '개' },
+      { name: '버섯', amount: 20, unit: 'g' },
+      { name: '당근', amount: 20, unit: 'g' }
+    ],
+    recipeSteps: [
+      "양지머리로 맑은 육수를 낸다.",
+      "밀가루와 콩가루를 7:3으로 섞어 반죽한 뒤, 홍두깨로 종이장처럼 얇게 밀어낸다.",
+      "면을 최대한 가늘게 썰어 삶은 뒤, 즉시 찬물에 헹궈 건져낸다. (그래서 '건진 국수'라고 부릅니다.)",
+      "그릇에 면을 담고 오방색 고명을 얹은 뒤, 차갑거나 따뜻하게 식힌 맑은 고기 육수를 부어 완성한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95f2A',
+    youtubeUrl: 'https://www.youtube.com/watch?v=wX-c6928L80'
+  },
+  {
+    id: 224,
+    name: "고기폭탄 짬뽕",
+    mainCategory: "면",
+    subCategory: "얼큰한 국물 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '중화면', amount: 1, unit: '인분' },
+        { name: '사골 육수 (시판)', amount: 500, unit: 'ml' },
+        { name: '돼지고기 (짬뽕용)', amount: 50, unit: 'g' },
+        { name: '양파', amount: 0.25, unit: '개' },
+        { name: '배추', amount: 2, unit: '잎' },
+        { name: '애호박', amount: 30, unit: 'g' },
+        { name: '대파', amount: 0.5, unit: '대' },
+        { name: '다진 마늘', amount: 1, unit: 'T' },
+        { name: '고춧가루', amount: 2, unit: 'T' },
+        { name: '식용유', amount: 2, unit: 'T' },
+        { name: '간장', amount: 1, unit: 'T' },
+        { name: '굴소스', amount: 1, unit: 'T' },
+        { name: '돼지고기 (불고기용)', amount: 300, unit: 'g' },
+        { name: '고명용 간장', amount: 1, unit: 'T' },
+        { name: '고명용 굴소스', amount: 1, unit: 'T' },
+        { name: '고명용 고춧가루', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+        "기본 짬뽕 만들기: 팬에 식용유, 대파, 마늘, 고춧가루를 볶아 고추기름을 냅니다.",
+        "짬뽕용 돼지고기를 넣고 볶다가 간장, 굴소스를 넣어 불맛을 냅니다.",
+        "양파, 배추, 애호박 등 채소를 넣고 센 불에 볶습니다.",
+        "육수를 붓고 끓인 뒤, 소금, 후추로 간을 맞춥니다.",
+        "고기폭탄 토핑 만들기: 다른 팬에 파기름을 내고, 고명용 고기(300g)를 볶습니다.",
+        "고기가 익으면 고명용 간장, 굴소스, 고춧가루로 간을 세게 해서 볶아냅니다.",
+        "완성: 삶은 면을 그릇에 담고 짬뽕 국물을 부은 뒤, 볶은 고기를 산더미처럼 쌓아 올립니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95jXJ",
+    youtubeUrl: "https://www.youtube.com/watch?v=FjZu7_iI-Q0"
+  },
+  {
+    id: 225,
+    name: "왕갈비 짬뽕",
+    mainCategory: "면",
+    subCategory: "얼큰한 국물 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '중화면', amount: 1, unit: '인분' },
+        { name: '사골 육수', amount: 500, unit: 'ml' },
+        { name: '양파', amount: 0.25, unit: '개' },
+        { name: '배추', amount: 2, unit: '잎' },
+        { name: '애호박', amount: 30, unit: 'g' },
+        { name: '고춧가루', amount: 2, unit: 'T' },
+        { name: '굴소스', amount: 1, unit: 'T' },
+        { name: '돼지 등갈비(왕갈비)', amount: 2, unit: '대' },
+        { name: '갈비찜용 간장', amount: 3, unit: 'T' },
+        { name: '갈비찜용 설탕', amount: 1.5, unit: 'T' },
+        { name: '갈비찜용 맛술', amount: 1, unit: 'T' },
+        { name: '갈비찜용 다진 마늘', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+        "왕갈비 토핑 만들기: 왕갈비는 핏물을 빼고 한번 삶아 불순물을 제거합니다.",
+        "갈비찜 양념(간장, 설탕, 맛술, 마늘 등)에 1시간 이상 푹 쪄서 부드럽게 만듭니다. (압력솥 사용 추천)",
+        "짬뽕 국물 만들기: 팬에 고추기름을 내고 채소를 볶습니다.",
+        "육수를 붓고 끓인 뒤, 굴소스, 소금, 후추로 간을 맞춥니다.",
+        "완성: 삶은 면을 그릇에 담고 짬뽕 국물을 부은 뒤, 쪄낸 왕갈비를 통째로 올립니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95jex",
+    youtubeUrl: "https://www.youtube.com/watch?v=hB9ST5H6Y-g"
+  },
+  {
+    id: 226,
+    name: "대만식 고기폭탄 우육면",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '중면', amount: 1, unit: '인분' },
+        { name: '소고기 사태', amount: 400, unit: 'g' },
+        { name: '소고기 육수', amount: 600, unit: 'ml' },
+        { name: '청경채', amount: 1, unit: '개' },
+        { name: '대파', amount: 0.5, unit: '대' },
+        { name: '마늘', amount: 3, unit: '쪽' },
+        { name: '생강', amount: 1, unit: '쪽' },
+        { name: '간장', amount: 3, unit: 'T' },
+        { name: '굴소스', amount: 1, unit: 'T' },
+        { name: '설탕', amount: 1, unit: 'T' },
+        { name: '팔각', amount: 2, unit: '개' }
+    ],
+    recipeSteps: [
+        "소고기 덩어리는 핏물을 뺀 후 겉면을 팬에 노릇하게 굽습니다.",
+        "냄비에 기름을 두르고 대파, 마늘, 생강을 볶아 향을 냅니다.",
+        "향신료(팔각 등)를 넣고 볶다가 간장, 굴소스, 설탕을 넣어 끓입니다.",
+        "구운 소고기와 육수를 붓고, 고기가 아주 부드러워질 때까지 1.5~2시간 푹 끓입니다.",
+        "삶은 면을 그릇에 담고, 데친 청경채를 올린 뒤 국물을 붓습니다.",
+        "푹 익은 소고기를 듬뿍 썰어서 고명으로 올립니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95jsS",
+    youtubeUrl: "https://www.youtube.com/watch?v=yY-3s3p7_9I"
+  },
+  {
+    id: 227,
+    name: "차슈 폭탄 라멘",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '라멘 생면', amount: 1, unit: '인분' },
+        { name: '시판 돈코츠 라멘 육수', amount: 1, unit: '팩' },
+        { name: '돼지고기 삼겹살 덩어리', amount: 400, unit: 'g' },
+        { name: '맛계란', amount: 1, unit: '개' },
+        { name: '대파', amount: 0.25, unit: '대' },
+        { name: '숙주', amount: 1, unit: '줌' },
+        { name: '조림용 물', amount: 3, unit: '컵' },
+        { name: '조림용 간장', amount: 1, unit: '컵' },
+        { name: '조림용 맛술', amount: 0.5, unit: '컵' },
+        { name: '조림용 설탕', amount: 0.5, unit: '컵' }
+    ],
+    recipeSteps: [
+        "차슈 만들기: 삼겹살 덩어리를 말아 실로 묶고, 팬에 겉면을 노릇하게 굽습니다.",
+        "냄비에 조림장 재료(물, 간장, 맛술, 설탕 등)와 구운 고기를 넣고 1~2시간 약불에 푹 조립니다.",
+        "고기를 건져 식힌 뒤 얇게 10~15장 썹니다. (토치로 그을리면 '바베큐' 풍미가 더해집니다)",
+        "라멘 완성: 시판 육수를 끓이고 면을 삶습니다.",
+        "그릇에 면과 육수를 담고, 맛계란, 대파, 숙주를 올립니다.",
+        "그릇 가장자리에 차슈를 꽃잎처럼 겹쳐서 그릇을 완전히 덮도록 둘러 담습니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95jIM",
+    youtubeUrl: "https://www.youtube.com/watch?v=0tzo22y2iXo"
+  },
+  {
+    id: 228,
+    name: "중국식 왕갈비 국수",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "어려움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '중화면', amount: 1, unit: '인분' },
+        { name: '맑은 소고기 육수', amount: 500, unit: 'ml' },
+        { name: '청경채', amount: 1, unit: '개' },
+        { name: '돼지 등갈비(왕갈비)', amount: 2, unit: '대' },
+        { name: '조림용 간장', amount: 3, unit: 'T' },
+        { name: '노추 (색내기용)', amount: 1, unit: 'T' },
+        { name: '설탕', amount: 1.5, unit: 'T' },
+        { name: '팔각', amount: 1, unit: '개' },
+        { name: '계피', amount: 1, unit: '조각' }
+    ],
+    recipeSteps: [
+        "왕갈비찜 만들기: 갈비 핏물을 빼고 한번 삶아냅니다.",
+        "팬에 기름과 설탕을 녹여 캐러멜색을 낸 뒤, 갈비를 볶아 코팅합니다.",
+        "간장, 노추, 향신료, 물을 붓고 갈비가 부드러워질 때까지 1시간 이상 푹 조립니다.",
+        "국수 완성: 삶은 면을 그릇에 담고, 맑은 육수(소금 간)를 붓고 데친 청경채를 올립니다.",
+        "그 위에 별도로 조리한 '중국식 왕갈비찜'을 푸짐하게 올립니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95jex",
+    youtubeUrl: "https://www.youtube.com/watch?v=F3_8_L0YhV0"
+  },
   // 볶음밥
   {
       id: 101,
@@ -874,18 +1510,24 @@ export const recipesData: Recipe[] = [
       ingredientsList: [
         { name: '밥', amount: 1, unit: '공기' },
         { name: '신김치', amount: 150, unit: 'g' },
-        { name: '돼지고기 또는 햄', amount: 50, unit: 'g' },
+        { name: '돼지고기/참치/베이컨/햄', amount: 50, unit: 'g' },
         { name: '양파', amount: 0.25, unit: '개' },
+        { name: '대파', amount: 0.5, unit: '대' },
+        { name: '계란 프라이', amount: 1, unit: '개' },
+        { name: '김가루', amount: 0, unit: '약간' },
         { name: '식용유', amount: 2, unit: 'T' },
-        { name: '계란', amount: 1, unit: '개' },
+        { name: '설탕', amount: 0.5, unit: 'T' },
+        { name: '고춧가루', amount: 0.5, unit: 'T' },
+        { name: '간장', amount: 1, unit: 'T' },
         { name: '참기름', amount: 1, unit: 't' }
       ],
       recipeSteps: [
-        "김치와 돼지고기(햄), 양파를 잘게 썹니다.",
-        "팬에 식용유를 두르고 양파와 돼지고기를 볶아줍니다.",
-        "고기가 익으면 김치를 넣고 함께 볶습니다. (김치국물을 조금 넣으면 더 맛있어요)",
-        "밥을 넣고 주걱으로 잘 섞어가며 볶아줍니다.",
-        "불을 끄고 참기름을 둘러 마무리합니다. 계란 후라이를 올려 함께 드세요."
+        "대파를 송송 썰어 식용유에 볶아 파기름을 냅니다.",
+        "돼지고기(또는 햄 등)와 양파를 넣고 볶아줍니다.",
+        "고기가 익으면 잘게 썬 김치와 설탕, 고춧가루를 넣고 김치가 투명해질 때까지 볶습니다.",
+        "찬밥을 넣고 주걱으로 잘 섞어가며 볶아줍니다.",
+        "팬 가장자리에 간장을 둘러 불맛을 냅니다.",
+        "불을 끄고 참기름과 김가루를 섞은 후, 계란 프라이를 올려 완성합니다."
       ],
       purchaseUrl: "https://link.coupang.com/a/b41Fau",
       youtubeUrl: 'https://www.youtube.com/watch?v=sO4z2aQ_L9w'
@@ -900,48 +1542,287 @@ export const recipesData: Recipe[] = [
       ingredientsList: [
           { name: '밥', amount: 1, unit: '공기' },
           { name: '칵테일 새우', amount: 80, unit: 'g' },
-          { name: '계란', amount: 1, unit: '개' },
-          { name: '대파', amount: 0.25, unit: '대' },
+          { name: '계란', amount: 2, unit: '개' },
+          { name: '대파', amount: 0.5, unit: '대' },
+          { name: '양파', amount: 0.25, unit: '개' },
+          { name: '당근', amount: 30, unit: 'g' },
           { name: '굴소스', amount: 1, unit: 'T' },
           { name: '소금', amount: 0, unit: '약간' },
           { name: '후추', amount: 0, unit: '약간' },
       ],
       recipeSteps: [
-          "대파는 송송 썰어 기름에 볶아 파기름을 냅니다.",
-          "계란을 풀어 스크램블 에그를 만들어 잠시 덜어둡니다.",
-          "파기름에 해동한 새우를 넣고 소금, 후추로 간하며 볶습니다.",
-          "새우가 익으면 밥과 굴소스를 넣고 잘 볶아줍니다.",
-          "마지막에 만들어둔 스크램블 에그를 넣고 가볍게 섞어 마무리합니다."
+          "새우는 해동 후 맛술로 밑간을 해둡니다. 채소는 잘게 다집니다.",
+          "팬에 기름을 두르고 대파를 볶아 파기름을 냅니다.",
+          "양파와 당근을 넣고 볶다가 새우를 넣고 소금, 후추로 간을 합니다.",
+          "팬의 한쪽에서 계란 스크램블을 만들어 섞어줍니다.",
+          "찬밥을 넣고 볶다가 굴소스로 간을 하고 참기름/후추로 마무리합니다."
       ],
       purchaseUrl: 'https://link.coupang.com/a/b41FhU',
       youtubeUrl: 'https://www.youtube.com/watch?v=d_2A-Sa4a8w'
   },
-  // 면
   {
-      id: 201,
-      name: "잔치국수",
-      mainCategory: "면",
-      subCategory: "따뜻한 국물 국수",
-      difficulty: "보통",
-      baseServings: 1,
-      ingredientsList: [
-          { name: '소면', amount: 100, unit: 'g' },
-          { name: '멸치/다시마 육수', amount: 500, unit: 'ml' },
-          { name: '애호박', amount: 30, unit: 'g' },
-          { name: '당근', amount: 20, unit: 'g' },
-          { name: '계란 지단', amount: 0.5, unit: '개' },
-          { name: '국간장', amount: 1, unit: 'T' },
-      ],
-      recipeSteps: [
-          "멸치, 다시마로 육수를 진하게 우려낸 후 국간장과 소금으로 간을 합니다.",
-          "애호박과 당근은 채 썰어 살짝 볶아 준비합니다.",
-          "계란은 흰자와 노른자를 분리하여 지단을 부쳐 채 썹니다.",
-          "소면을 삶아 찬물에 헹궈 물기를 뺍니다.",
-          "그릇에 소면을 담고 뜨거운 육수를 부은 뒤, 준비한 고명을 올려 완성합니다."
-      ],
-      purchaseUrl: 'https://link.coupang.com/a/b41FmS',
-      youtubeUrl: 'https://www.youtube.com/watch?v=FqgqX3P6n-E'
+    id: 103,
+    name: "계란 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "클래식 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '계란', amount: 3, unit: '알' },
+      { name: '대파 (흰 부분)', amount: 1, unit: '대' },
+      { name: '굴소스', amount: 1, unit: 'T' },
+      { name: '간장', amount: 0.5, unit: 'T' },
+      { name: '소금', amount: 0, unit: '약간' },
+      { name: '후추', amount: 0, unit: '약간' },
+      { name: '식용유', amount: 3, unit: 'T' }
+    ],
+    recipeSteps: [
+      "대파 흰 부분을 송송 썰어 기름에 볶아 파기름을 충분히 냅니다.",
+      "팬 한쪽으로 파를 밀고, 풀어둔 계란을 부어 스크램블을 만듭니다.",
+      "찬밥을 넣고 주걱을 세워 자르듯이 밥알을 풀어가며 볶습니다.",
+      "밥알이 고슬고슬해지면 굴소스와 간장을 팬 가장자리에 둘러 불맛을 냅니다.",
+      "소금과 후추로 최종 간을 맞추고 쪽파를 뿌려 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b41FhU",
+    youtubeUrl: "https://www.youtube.com/watch?v=s6cvm_a8o-0"
   },
+  {
+    id: 104,
+    name: "삼겹살 김치볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "고기 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '삼겹살', amount: 150, unit: 'g' },
+      { name: '신김치', amount: 150, unit: 'g' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '깻잎', amount: 5, unit: '장' },
+      { name: '김가루', amount: 0, unit: '약간' },
+      { name: '고춧가루', amount: 0.5, unit: 'T' },
+      { name: '설탕', amount: 0.5, unit: 'T' },
+      { name: '참기름', amount: 1, unit: 't' }
+    ],
+    recipeSteps: [
+      "삼겹살을 노릇하게 구워 기름을 낸 후, 먹기 좋게 자릅니다.",
+      "삼겹살 기름에 파를 볶아 향을 냅니다.",
+      "신김치와 설탕, 고춧가루를 넣고 충분히 볶아줍니다.",
+      "찬밥을 넣고 고기와 김치, 밥이 잘 섞이도록 볶습니다.",
+      "불을 끄고 참기름을 두른 뒤, 김가루와 채 썬 깻잎을 올려 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yWf1",
+    youtubeUrl: "https://www.youtube.com/watch?v=2pA_wW9z-mI"
+  },
+  {
+    id: 106,
+    name: "카레 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "소스/퓨전 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '카레 가루', amount: 2, unit: 'T' },
+      { name: '감자', amount: 50, unit: 'g' },
+      { name: '당근', amount: 30, unit: 'g' },
+      { name: '양파', amount: 0.25, unit: '개' },
+      { name: '햄', amount: 50, unit: 'g' },
+      { name: '계란', amount: 1, unit: '개' }
+    ],
+    recipeSteps: [
+      "모든 채소와 햄은 작은 깍둑썰기를 합니다. (감자와 당근은 미리 살짝 익혀두면 좋습니다.)",
+      "팬에 기름을 두르고 파기름을 낸 후, 단단한 채소(감자, 당근)부터 볶습니다.",
+      "양파와 햄을 넣고 볶다가 카레 가루를 넣고 타지 않게 볶아 향을 냅니다.",
+      "찬밥을 넣고 볶은 후, 한쪽에서 계란 스크램블을 만들어 섞어줍니다.",
+      "부족한 간은 소금/후추로 맞춥니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yWzN",
+    youtubeUrl: "https://www.youtube.com/watch?v=0hYV-8ThREk"
+  },
+  {
+    id: 108,
+    name: "갈릭 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "소스/퓨전 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '마늘 (다진 것)', amount: 1, unit: 'T' },
+      { name: '마늘 (편 썬 것)', amount: 1, unit: 'T' },
+      { name: '베이컨', amount: 2, unit: '줄' },
+      { name: '계란', amount: 1, unit: '개' },
+      { name: '버터', amount: 1, unit: 't' },
+      { name: '굴소스', amount: 0.5, unit: 'T' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "팬에 기름을 두르고 편 마늘을 노릇하게 튀겨 건져둡니다 (토핑용).",
+      "같은 팬에 다진 마늘과 베이컨을 넣고 볶아 향을 냅니다.",
+      "한쪽에서 계란 스크램블을 만들어 섞습니다.",
+      "찬밥을 넣고 볶다가 굴소스나 소금으로 간을 합니다.",
+      "불을 끄고 버터와 후추를 넣어 섞은 후, 튀긴 마늘을 올려 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yWOm",
+    youtubeUrl: "https://www.youtube.com/watch?v=Kz4D52nw-Ag"
+  },
+  {
+    id: 112,
+    name: "닭갈비 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "K-후식 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '남은 닭갈비 양념/건더기', amount: 1, unit: '컵' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '김치', amount: 50, unit: 'g' },
+      { name: '깻잎', amount: 5, unit: '장' },
+      { name: '김가루', amount: 0, unit: '약간' },
+      { name: '모차렐라 치즈', amount: 50, unit: 'g' },
+      { name: '참기름', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "남은 닭갈비 건더기와 양념을 가위로 잘게 자릅니다.",
+      "팬에 김치를 넣고 볶다가 닭갈비와 함께 볶습니다.",
+      "찬밥을 넣고 양념과 잘 섞이도록 볶아줍니다.",
+      "밥을 넓게 편 후, 채 썬 깻잎과 김가루를 뿌리고 가운데에 모차렐라 치즈를 올립니다.",
+      "뚜껑을 덮어 치즈를 녹인 후, 참기름을 둘러 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXiw",
+    youtubeUrl: "https://www.youtube.com/watch?v=n8uGqL8_p84"
+  },
+  {
+    id: 113,
+    name: "낙지/쭈꾸미 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "K-후식 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '남은 볶음 양념', amount: 1, unit: '컵' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '날치알', amount: 2, unit: 'T' },
+      { name: '김가루', amount: 0, unit: '약간' },
+      { name: '깻잎/쪽파', amount: 0, unit: '약간' },
+      { name: '참기름', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "남은 낙지/쭈꾸미 볶음 양념에 밥을 넣고 볶습니다.",
+      "밥이 잘 섞이면 날치알, 김가루, 채 썬 깻잎/쪽파를 넣고 가볍게 섞습니다.",
+      "참기름을 둘러 마무리합니다.",
+      "팁: 팬에 얇게 눌러 누룽지를 만들어 먹으면 더욱 맛있습니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXq1",
+    youtubeUrl: "https://www.youtube.com/watch?v=jP-SClH_Hqk"
+  },
+  {
+    id: 114,
+    name: "명란 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "특별 재료 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '명란젓', amount: 1, unit: '개' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '다진 마늘', amount: 0.5, unit: 't' },
+      { name: '계란 노른자', amount: 1, unit: '개' },
+      { name: '김가루', amount: 0, unit: '약간' },
+      { name: '마요네즈', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "명란젓은 칼집을 내어 알만 발라냅니다.",
+      "팬에 기름을 두르고 파와 마늘을 볶아 향을 냅니다.",
+      "불을 살짝 줄이고 명란 알을 넣어 볶아줍니다.",
+      "찬밥을 넣고 명란과 잘 섞이도록 볶습니다 (명란이 짜므로 간은 따로 하지 않아도 됩니다).",
+      "불을 끄고 마요네즈를 넣어 섞은 후, 김가루와 계란 노른자를 올려 마무리합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXAN",
+    youtubeUrl: "https://www.youtube.com/watch?v=L-S-Muj2WJY"
+  },
+  {
+    id: 115,
+    name: "참치김치마요 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "특별 재료 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '캔 참치', amount: 100, unit: 'g' },
+      { name: '신김치', amount: 100, unit: 'g' },
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '마요네즈', amount: 2, unit: 'T' },
+      { name: '설탕', amount: 0.5, unit: 'T' },
+      { name: '간장 (선택)', amount: 0.5, unit: 'T' }
+    ],
+    recipeSteps: [
+      "참치는 기름을 빼고, 김치는 잘게 썹니다.",
+      "팬에 기름을 두르고 파기름을 낸 후, 참치와 김치, 설탕을 넣고 볶습니다.",
+      "찬밥을 넣고 볶다가, 팬 가장자리에 간장을 둘러 불맛을 냅니다.",
+      "불을 끄고 마요네즈를 듬뿍 넣어 잘 섞어주면 완성입니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXJk",
+    youtubeUrl: "https://www.youtube.com/watch?v=rWl-jCFs8aw"
+  },
+  {
+    id: 116,
+    name: "옥수수 마요 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "특별 재료 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '밥', amount: 1, unit: '공기' },
+      { name: '캔 옥수수', amount: 0.5, unit: '컵' },
+      { name: '햄', amount: 50, unit: 'g' },
+      { name: '계란', amount: 1, unit: '개' },
+      { name: '대파', amount: 0.5, unit: '대' },
+      { name: '마요네즈', amount: 2, unit: 'T' },
+      { name: '소금', amount: 0, unit: '약간' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "옥수수는 물기를 빼고, 햄은 잘게 썹니다.",
+      "팬에 기름을 두르고 파기름을 낸 후, 햄을 볶습니다.",
+      "한쪽에서 계란 스크램블을 만들고, 옥수수를 넣어 함께 볶습니다.",
+      "찬밥을 넣고 볶다가 소금과 후추로 간을 합니다.",
+      "불을 끄고 마요네즈를 넣어 잘 섞어주면 톡톡 터지는 식감의 볶음밥 완성입니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXSR",
+    youtubeUrl: "https://www.youtube.com/watch?v=mQ6y-tyoM58"
+  },
+  {
+    id: 117,
+    name: "컬리플라워 라이스 볶음밥",
+    mainCategory: "볶음밥",
+    subCategory: "건강/대체 볶음밥",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '컬리플라워 라이스', amount: 200, unit: 'g' },
+      { name: '닭가슴살', amount: 100, unit: 'g' },
+      { name: '계란', amount: 1, unit: '개' },
+      { name: '각종 채소 (양파, 파프리카 등)', amount: 100, unit: 'g' },
+      { name: '굴소스', amount: 1, unit: 'T' },
+      { name: '소금', amount: 0, unit: '약간' },
+      { name: '후추', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+      "냉동 컬리플라워 라이스는 마른 팬에 볶아 수분을 날려줍니다.",
+      "팬에 기름을 두르고 파기름을 낸 후, 닭가슴살과 채소를 볶습니다.",
+      "한쪽에서 계란 스크램블을 만들어 섞습니다.",
+      "수분을 날린 컬리플라워 라이스를 넣고 함께 볶습니다.",
+      "굴소스, 소금, 후추로 간을 맞춰 마무리합니다. (밥 대신 사용하여 탄수화물을 줄인 레시피입니다.)"
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b9yXXg",
+    youtubeUrl: "https://www.youtube.com/watch?v=lcaOa7g73wA"
+  },
+  // 면
   {
       id: 202,
       name: "비빔국수",
@@ -954,19 +1835,216 @@ export const recipesData: Recipe[] = [
           { name: '신김치', amount: 80, unit: 'g' },
           { name: '오이', amount: 0.25, unit: '개' },
           { name: '삶은 계란', amount: 0.5, unit: '개' },
-          { name: '고추장', amount: 1.5, unit: 'T' },
+          { name: '고추장', amount: 2, unit: 'T' },
+          { name: '고춧가루', amount: 1, unit: 'T' },
           { name: '설탕', amount: 1, unit: 'T' },
-          { name: '식초', amount: 1, unit: 'T' },
-          { name: '참기름', amount: 1, unit: 't' },
+          { name: '식초', amount: 1.5, unit: 'T' },
+          { name: '간장', amount: 1, unit: 'T' },
+          { name: '다진 마늘', amount: 0.5, unit: 'T' },
+          { name: '참기름', amount: 1, unit: 'T' }
       ],
       recipeSteps: [
-          "소면을 삶아 찬물에 헹궈 물기를 뺍니다.",
-          "김치는 송송 썰고, 오이는 채 썹니다.",
-          "그릇에 고추장, 설탕, 식초, 참기름을 넣고 잘 섞어 양념장을 만듭니다.",
-          "삶은 소면에 양념장과 김치를 넣고 비벼줍니다.",
-          "그릇에 담고 채 썬 오이와 삶은 계란을 올려 마무리합니다."
+          "면을 삶아 찬물에 헹궈 물기를 꽉 짠다.",
+          "분량의 재료로 양념장을 만든다.",
+          "면, 채 썬 채소, 양념장을 모두 넣고 비빈다.",
+          "삶은 계란을 올려 마무리한다."
       ],
       purchaseUrl: 'https://link.coupang.com/a/b41FxV',
       youtubeUrl: 'https://www.youtube.com/watch?v=Ixs_W0qAAbQ'
+  },
+  {
+    id: 203,
+    name: "베트남 쌀국수",
+    mainCategory: "면",
+    subCategory: "따뜻한 국물 국수",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '쌀국수 면', amount: 100, unit: 'g' },
+        { name: '소고기 (차돌박이)', amount: 80, unit: 'g' },
+        { name: '숙주', amount: 1, unit: '줌' },
+        { name: '양파', amount: 0.25, unit: '개' },
+        { name: '시판 쌀국수 육수', amount: 400, unit: 'ml' },
+        { name: '고수, 라임 (선택)', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+        "쌀국수 면은 미리 물에 불려둔다.",
+        "그릇에 불린 면, 숙주, 얇게 썬 양파와 소고기를 담는다.",
+        "시판 육수를 팔팔 끓여 부어주어 고기를 익힌다.",
+        "취향에 따라 고수, 라임, 해선장, 스리라차 소스를 곁들인다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b949im',
+    youtubeUrl: 'https://www.youtube.com/watch?v=2f357l_e8rY'
+  },
+  {
+    id: 205,
+    name: "메밀소바",
+    mainCategory: "면",
+    subCategory: "시원한 국물 국수",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '메밀면', amount: 100, unit: 'g' },
+        { name: '시판 쯔유', amount: 100, unit: 'ml' },
+        { name: '물', amount: 200, unit: 'ml' },
+        { name: '무', amount: 50, unit: 'g' },
+        { name: '쪽파', amount: 0, unit: '약간' },
+        { name: '와사비', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+        "쯔유와 물을 1:2 비율로 희석해 냉동실에 넣어 살얼음이 끼게 만든다.",
+        "메밀면을 삶아 얼음물에 헹궈 물기를 뺀다.",
+        "차가운 쯔유에 간 무, 송송 썬 쪽파, 와사비를 푼다.",
+        "면을 쯔유에 찍어 먹는다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b949C6',
+    youtubeUrl: 'https://www.youtube.com/watch?v=Jb-ILhDeTVg'
+  },
+  {
+    id: 206,
+    name: "콩국수",
+    mainCategory: "면",
+    subCategory: "시원한 국물 국수",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '소면', amount: 100, unit: 'g' },
+        { name: '두부', amount: 0.5, unit: '모' },
+        { name: '볶은 콩가루', amount: 2, unit: 'T' },
+        { name: '견과류 (잣/땅콩)', amount: 1, unit: 'T' },
+        { name: '물', amount: 200, unit: 'ml' },
+        { name: '오이, 토마토', amount: 0, unit: '약간' },
+        { name: '소금/설탕', amount: 0, unit: '취향껏' }
+    ],
+    recipeSteps: [
+        "믹서에 두부, 볶은 콩가루, 견과류, 물, 소금을 넣고 곱게 간다.",
+        "만들어진 콩국을 냉장고에 넣어 아주 차갑게 식힌다.",
+        "소면을 삶아 헹군 뒤 그릇에 담고 차가운 콩국을 붓는다.",
+        "채 썬 오이와 토마토를 고명으로 올리고, 소금이나 설탕으로 간을 맞춰 먹는다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b949Me',
+    youtubeUrl: 'https://www.youtube.com/watch?v=NnMyR2u6yJ8'
+  },
+  {
+    id: 210,
+    name: "쫄면",
+    mainCategory: "면",
+    subCategory: "매콤한 비빔 국수",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '쫄면 사리', amount: 1, unit: '인분' },
+        { name: '콩나물', amount: 1, unit: '줌' },
+        { name: '양배추', amount: 1, unit: '줌' },
+        { name: '삶은 계란', amount: 1, unit: '개' },
+        { name: '고추장', amount: 3, unit: 'T' },
+        { name: '식초', amount: 2, unit: 'T' },
+        { name: '설탕', amount: 2, unit: 'T' },
+        { name: '고춧가루', amount: 1, unit: 'T' },
+        { name: '다진 마늘', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+        "면을 삶아 찬물에 헹군다. 콩나물은 따로 삶아 식힌다.",
+        "분량의 재료를 섞어 양념장을 만든다.",
+        "그릇에 면, 채 썬 채소, 콩나물, 양념장을 넣고 비빈다.",
+        "삶은 계란을 올려 마무리한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95aF8',
+    youtubeUrl: 'https://www.youtube.com/watch?v=f-3n1-z-d_8'
+  },
+  {
+    id: 213,
+    name: "볶음우동",
+    mainCategory: "면",
+    subCategory: "소스가 핵심인 면요리",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '우동면', amount: 1, unit: '인분' },
+        { name: '돼지고기 (or 해물)', amount: 80, unit: 'g' },
+        { name: '양배추, 숙주, 양파', amount: 1, unit: '줌' },
+        { name: '굴소스', amount: 2, unit: 'T' },
+        { name: '간장', amount: 1, unit: 'T' },
+        { name: '설탕', amount: 1, unit: 'T' },
+        { name: '가쓰오부시', amount: 0, unit: '약간' }
+    ],
+    recipeSteps: [
+        "우동면은 살짝 데쳐둔다.",
+        "팬에 파기름과 고기를 볶고 채소를 볶는다.",
+        "데친 면과 소스(굴소스, 간장, 설탕, 맛술)를 넣고 센 불에 볶는다.",
+        "불 끄기 직전 숙주를 넣고, 접시에 담아 가쓰오부시를 뿌린다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95bsy',
+    youtubeUrl: 'https://www.youtube.com/watch?v=l8D-68O0R-s'
+  },
+  {
+    id: 214,
+    name: "알리오 올리오",
+    mainCategory: "면",
+    subCategory: "파스타",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '스파게티 면', amount: 100, unit: 'g' },
+        { name: '마늘 (편 썬 것)', amount: 5, unit: '쪽' },
+        { name: '페페론치노 (건고추)', amount: 2, unit: '개' },
+        { name: '올리브 오일', amount: 3, unit: 'T' },
+        { name: '면수 (면 삶은 물)', amount: 100, unit: 'ml' }
+    ],
+    recipeSteps: [
+        "면을 삶는다 (포장지에 적힌 시간보다 1분 덜).",
+        "팬에 올리브 오일, 마늘, 페페론치노를 약불에 볶아 향을 낸다.",
+        "삶은 면과 '면수'를 넣고 센 불로 올려 빠르게 저어 소스를 걸쭉하게 만든다(유화).",
+        "소금, 후추로 간을 하고 마무리한다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95bH4',
+    youtubeUrl: 'https://www.youtube.com/watch?v=4x-2-dJg-3U'
+  },
+  {
+    id: 216,
+    name: "아라비아따",
+    mainCategory: "면",
+    subCategory: "파스타",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '펜네 (or 스파게티)', amount: 100, unit: 'g' },
+        { name: '홀토마토 (캔)', amount: 200, unit: 'g' },
+        { name: '마늘 (편)', amount: 3, unit: '쪽' },
+        { name: '페페론치노', amount: 3, unit: '개' },
+        { name: '올리브 오일', amount: 2, unit: 'T' }
+    ],
+    recipeSteps: [
+        "팬에 올리브 오일, 마늘, 페페론치노를 볶아 매운 향을 낸다.",
+        "베이컨(선택)을 볶다 으깬 홀토마토를 넣고 끓인다.",
+        "삶은 면과 면수를 넣고 섞어 졸인다.",
+        "소금, 후추로 간을 하고 파슬리(선택)를 뿌린다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95cgX',
+    youtubeUrl: 'https://www.youtube.com/watch?v=R5oT_sTeK-M'
+  },
+  {
+    id: 218,
+    name: "로제 파스타",
+    mainCategory: "면",
+    subCategory: "파스타",
+    difficulty: "쉬움",
+    baseServings: 1,
+    ingredientsList: [
+        { name: '파스타면', amount: 100, unit: 'g' },
+        { name: '베이컨', amount: 50, unit: 'g' },
+        { name: '양파', amount: 0.25, unit: '개' },
+        { name: '마늘', amount: 2, unit: '쪽' },
+        { name: '시판 토마토소스', amount: 150, unit: 'ml' },
+        { name: '생크림', amount: 100, unit: 'ml' }
+    ],
+    recipeSteps: [
+        "팬에 오일, 마늘, 양파, 베이컨을 볶는다.",
+        "토마토소스를 붓고 끓이다가 생크림을 부어 로제색을 만든다.",
+        "삶은 면을 넣고 섞어 졸인다.",
+        "소금, 후추로 간을 하고 파슬리(선택)를 뿌린다."
+    ],
+    purchaseUrl: 'https://link.coupang.com/a/b95cO5',
+    youtubeUrl: 'https://www.youtube.com/watch?v=pAYy_E9i-ug'
   }
 ];

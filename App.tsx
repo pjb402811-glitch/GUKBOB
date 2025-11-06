@@ -1,9 +1,16 @@
 import React, { useState, useMemo, useCallback } from 'react';
 import { recipesData } from './data';
-import { Recipe, MainCategory } from './types';
+import { Recipe, MainCategory, Difficulty } from './types';
 import Header from './components/Header';
 import RecipeCard from './components/RecipeCard';
 import RecipeModal from './components/RecipeModal';
+
+const difficultyOrder: Record<Difficulty, number> = {
+  "쉬움": 1,
+  "보통": 2,
+  "어려움": 3,
+  "전문가": 4,
+};
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -19,7 +26,8 @@ function App() {
 
   const filteredRecipes = useMemo(() => {
     const lowercasedSearchTerm = searchTerm.toLowerCase();
-    return recipesData.filter((recipe) => {
+    
+    const recipes = recipesData.filter((recipe) => {
       const mainCategoryMatch = recipe.mainCategory === activeMainCategory;
       const difficultyMatch = difficultyFilter === "all" || recipe.difficulty === difficultyFilter;
       const searchMatch = lowercasedSearchTerm === '' || 
@@ -30,6 +38,8 @@ function App() {
       
       return mainCategoryMatch && difficultyMatch && searchMatch;
     });
+
+    return recipes.sort((a, b) => difficultyOrder[a.difficulty] - difficultyOrder[b.difficulty]);
   }, [searchTerm, difficultyFilter, activeMainCategory]);
 
   return (
