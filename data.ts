@@ -82,7 +82,7 @@ export const recipesData: Recipe[] = [
   },
   {
     id: 23,
-    name: "돼지고기 김치콩나물국밥",
+    name: "김치국밥",
     mainCategory: "국밥",
     subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
