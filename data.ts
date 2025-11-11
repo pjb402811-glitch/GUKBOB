@@ -82,28 +82,40 @@ export const recipesData: Recipe[] = [
   },
   {
     id: 23,
-    name: "김치국밥",
+    name: "돼지고기 김치콩나물국밥",
     mainCategory: "국밥",
     subCategory: "얼큰 칼칼한 국밥",
     difficulty: "쉬움",
-    baseServings: 1,
+    baseServings: 2,
     ingredientsList: [
-      { name: '멸치 육수', amount: 500, unit: 'ml' },
-      { name: '신김치 (송송)', amount: 150, unit: 'g' },
-      { name: '돼지고기 (선택)', amount: 50, unit: 'g' },
-      { name: '밥', amount: 1, unit: '공기' },
-      { name: '계란', amount: 1, unit: '개' },
-      { name: '대파', amount: 0.5, unit: '줌' }
+      { name: '돼지고기 (삼겹살, 목살 등)', amount: 150, unit: 'g' },
+      { name: '신김치', amount: 300, unit: 'g' },
+      { name: '콩나물', amount: 200, unit: 'g' },
+      { name: '찬밥', amount: 1, unit: '공기' },
+      { name: '떡국떡 (선택)', amount: 1, unit: '공기' },
+      { name: '청양고추', amount: 1, unit: '개' },
+      { name: '대파', amount: 1, unit: '줌' },
+      { name: '다시마', amount: 1, unit: '장' },
+      { name: '국물용 멸치', amount: 20, unit: '마리' },
+      { name: '들기름', amount: 2, unit: 'T' },
+      { name: '물', amount: 1500, unit: 'ml' },
+      { name: '멸치액젓', amount: 2, unit: 'T' },
+      { name: '국간장', amount: 1, unit: 'T' },
+      { name: '다진마늘', amount: 1, unit: 'T' },
+      { name: '신김치 국물', amount: 100, unit: 'ml' },
+      { name: '소금', amount: 0, unit: '약간' },
+      { name: '맛술 (선택)', amount: 1, unit: 'T' },
+      { name: '후추 (선택)', amount: 0, unit: '약간' }
     ],
     recipeSteps: [
-      "육수 만들기: 물 600ml에 멸치(10마리), 다시마(1장)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
-      "냄비에 김치를 송송 썰어 볶습니다. (돼지고기 사용 시 같이 볶습니다)",
-      "멸치 육수를 붓고 끓입니다.",
-      "국물이 끓으면 밥을 넣고 한소끔 더 끓입니다.",
-      "국간장, 소금으로 간을 맞추고, 마지막에 대파와 계란을 풀어 완성합니다."
+      "재료 준비: 돼지고기는 먹기 좋은 크기로, 신김치(300g)는 약 3cm 크기로 썹니다. 콩나물(200g)은 2~3번 헹궈 콩 껍질을 제거하고, 청양고추(1개)와 대파(한 줌)는 송송 썹니다. 내장을 제거한 국물용 멸치(20마리)와 다시마(1장)를 육수 주머니에 담습니다.",
+      "돼지고기 & 김치 볶기: 냄비에 들기름 2스푼을 두르고 중불로 달군 뒤 돼지고기를 볶습니다. 잡내 제거를 위해 맛술(1스푼)과 후추를 넣고 함께 볶아도 좋습니다. 고기 겉면이 익으면 신김치를 넣고 숨이 죽을 때까지(약 5분) 충분히 볶아줍니다.",
+      "육수 끓이기: 볶은 재료에 물 1.5L와 육수 주머니를 넣고 뚜껑을 덮고 끓입니다. 끓어오르면 중약불로 줄여 10분간 더 우려낸 뒤, 육수 주머니를 건져냅니다.",
+      "재료 추가 및 간: 육수에 멸치액젓(2스푼), 국간장(1스푼), 다진마늘(1스푼), 신김치 국물(100ml)로 기본 간을 합니다. 찬밥(1공기), 떡국떡(1공기)을 넣고 그 위에 콩나물(200g)을 올립니다.",
+      "끓이고 마무리: 뚜껑을 연 채로 끓입니다. 다시 끓어오르면 중불로 3분간 더 끓여줍니다. 맛을 보고 부족한 간은 소금으로 맞춘 뒤, 대파와 청양고추를 넣고 1분만 더 끓여 완성합니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1t2TE",
-    youtubeUrl: 'https://youtu.be/IsvrgIHeau8?si=o1zNYkAVkcqlBulN'
+    youtubeUrl: 'https://youtu.be/BZBm1Bf8c7k?si=1T2TtdKSl6cHOghf'
   },
   {
     id: 4,
