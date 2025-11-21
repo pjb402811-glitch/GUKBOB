@@ -1,3 +1,4 @@
+
 import { Recipe } from './types';
 
 export const recipesData: Recipe[] = [
@@ -545,7 +546,7 @@ export const recipesData: Recipe[] = [
     ],
     recipeSteps: [
       "육수 만들기: 물 600ml에 멸치(10마리)를 넣고 15분간 끓인 후 건더기를 건집니다. (시판 멸치 육수 500ml로 대체 가능)",
-      "냄비에 기름을 두르고 돼지고기와 다진 마늘을 볶습니다.",
+      "냄비에 기름을 두르고 돼지고기와 다진 마늘を 볶습니다.",
       "고기가 익으면 고춧가루를 넣고 약불에 볶아 고추기름을 냅니다.",
       "물(또는 육수)을 붓고 고추장(1T)을 풉니다.",
       "국물이 끓으면 채 썬 애호박과 양파를 듬뿍 넣습니다.",
@@ -734,8 +735,8 @@ export const recipesData: Recipe[] = [
       "깨끗한 냄비에 물 3L와 데친 아롱사태를 넣고 1시간 반 동안 푹 끓여줍니다. 이때 처음 물 높이를 기억해두세요.",
       "1시간 반 뒤, 고기를 건져 한김 식힌 후 결 반대 방향으로 썰어줍니다.",
       "냄비에 처음 기억해둔 물 높이만큼 물을 추가로 붓습니다.",
-      "물에 집 된장, 멸치액젓, 국간장, 고춧가루, 맛술, 소고기 다시다, 마늘, 썰어둔 아롱사태, 무, 삶은 우거지를 넣고 센 불에서 15분간 끓입니다.",
-      "15분 뒤, 대파, 청양고추, 홍고추, 후추를 넣고 5분 더 끓여주면 완성입니다.",
+      "물에 집 된장, 멸치액젓, 국간장, 고춧가루, 맛술, 소고기 다시다, 마늘, 썰어둔 아롱사태, 무, 삶은 우거지를 넣고 센 불에 15분간 끓입니다.",
+      "15분 뒤, 대파, 청양고추, 홍고추, 후추를 넣고 5분 더 끓여주면 완성합니다.",
       "팁: 국밥은 바로 먹는 것보다 조금 두었다가 먹으면 우거지가 국물에 풀어져 더욱 맛있습니다."
     ],
     purchaseUrl: "https://link.coupang.com/a/c1NqVR",
@@ -801,7 +802,7 @@ export const recipesData: Recipe[] = [
     ],
     recipeSteps: [
       "소고기에 간장, 설탕, 다진 마늘, 후추로 밑간을 해둡니다.",
-      "팬에 기름을 두르고 파를 볶아 파기름을 냅니다.",
+      "팬에 기름을 두르고 파を 볶아 파기름을 냅니다.",
       "다진 양파와 당근을 넣고 볶다가, 한쪽에서 계란 스크램블을 만들어 섞습니다.",
       "밑간한 소고기를 넣고 핏기가 없어질 때까지 볶습니다.",
       "찬밥을 넣고 볶다가 굴소스로 간을 하고 후추를 뿌려 마무리합니다."
@@ -1059,7 +1060,7 @@ export const recipesData: Recipe[] = [
     recipeSteps: [
         "관찰레(베이컨)는 바싹 볶는다.",
         "볼에 계란 노른자, 간 치즈, 후추를 섞어둔다.",
-        "삶은 면을 볼에 넣고 면수와 베이컨 기름을 조금씩 추가하며 빠르게 비벼 잔열로 소스를 만든다.",
+        "삶은 면を 볼에 넣고 면수와 베이컨 기름을 조금씩 추가하며 빠르게 비벼 잔열로 소스를 만든다.",
         "(주의: 불 위에 올리면 계란이 익어 스크램블이 될 수 있다)"
     ],
     purchaseUrl: 'https://link.coupang.com/a/b95b3d',
@@ -1132,7 +1133,7 @@ export const recipesData: Recipe[] = [
     ],
     recipeSteps: [
       "된장을 푼 물에 시래기 등을 넣고 끓여 육수를 만듭니다.",
-      "도토리 가루와 밀가루를 섞어 반죽한 뒤, 밀대로 밀어 칼국수처럼 썰어냅니다.",
+      "도토리 가루와 밀가루를 7:3으로 섞어 반죽한 뒤, 밀대로 밀어 칼국수처럼 썰어냅니다.",
       "만들어진 면을 된장 육수에 넣고 끓여 완성합니다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/b95gCS',
@@ -1267,7 +1268,7 @@ export const recipesData: Recipe[] = [
     recipeSteps: [
       "토란대 준비: 끓는 물에 된장 1스푼을 풀고 토란대 250g을 5분간 삶은 후, 5분간 뜸을 들입니다. 찬물에 헹궈 물기를 짜고 먹기 좋게 썹니다.",
       "오리 초벌 삶기: 냄비에 다진 생강 1톨, 소주 반 컵, 오리 1마리를 넣고 물이 끓으면 4분간 삶아 찬물에 깨끗이 헹굽니다.",
-      "채소 손질: 대파, 깻잎, 미나리, 부추는 큼직하게 썰고, 양파도 썰어 준비합니다.",
+      "채소 손질: 대파, 깻잎, 미나리, 부추는 큼직하게 썰고, 양파는 채 썹니다.",
       "들깨 육수 만들기: 믹서기에 생들깨 120g, 2시간 불린 찹쌀 2스푼, 물 400ml를 넣고 곱게 갈아 체에 걸러 진한 국물만 받습니다.",
       "양념장 만들기: 믹서기에 건고추 7개, 물 200ml를 갈아 된장 2스푼, 다진 마늘 2스푼, 다진 생강 1/2스푼, 고춧가루 2스푼, 소주 1/4컵을 섞습니다.",
       "양념장에 손질한 토란대와 고구마 줄기를 넣고 30분간 재워둡니다.",
@@ -1296,8 +1297,8 @@ export const recipesData: Recipe[] = [
         { name: '굴소스', amount: 1, unit: 'T' }
     ],
     recipeSteps: [
-        "팬에 기름, 마늘, 고춧가루, 돼지고기를 볶아 고추기름을 낸다.",
-        "센 불에 채소와 해물, 청주(선택)를 볶아 불향을 낸다.",
+        "팬에 기름, 마늘, 고춧가루, 돼지고기를 볶아 고추기름을 냅니다.",
+        "센 불에 채소와 해물, 청주(선택)를 볶아 불향을 냅니다.",
         "육수를 붓고 끓인 뒤 굴소스/간장으로 간을 맞춘다.",
         "삶은 면 위에 완성된 짬뽕 국물을 부어준다."
     ],
@@ -1324,7 +1325,7 @@ export const recipesData: Recipe[] = [
     recipeSteps: [
         "기름에 춘장을 튀기듯 볶아 따로 둔다.",
         "팬에 파기름을 내고 돼지고기, 깍둑 썬 채소를 볶는다.",
-        "볶은 춘장, 굴소스, 설탕을 넣고, 물을 붓고 끓인다.",
+        "볶은 춘장, 굴소스, 6설탕을 넣고, 물을 붓고 끓인다.",
         "전분물로 농도를 맞춘 뒤 삶은 면 위에 부어 비벼 먹는다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/b95aWd',
@@ -1539,7 +1540,7 @@ export const recipesData: Recipe[] = [
         "고기가 익으면 잘게 썬 김치와 설탕, 고춧가루를 넣고 김치가 투명해질 때까지 볶습니다.",
         "찬밥을 넣고 주걱으로 잘 섞어가며 볶아줍니다.",
         "팬 가장자리에 간장을 둘러 불맛을 냅니다.",
-        "불을 끄고 참기름과 김가루를 섞은 후, 계란 프라이를 올려 완성합니다."
+        "불을 끄기 직전 참기름과 김가루를 섞은 후, 계란 프라이를 올려 완성합니다."
       ],
       purchaseUrl: "https://link.coupang.com/a/b41Fau",
       youtubeUrl: 'https://www.youtube.com/watch?v=sO4z2aQ_L9w'
@@ -1592,7 +1593,7 @@ export const recipesData: Recipe[] = [
     recipeSteps: [
       "대파 흰 부분을 송송 썰어 기름에 볶아 파기름을 충분히 냅니다.",
       "팬 한쪽으로 파를 밀고, 풀어둔 계란을 부어 스크램블을 만듭니다.",
-      "찬밥을 넣고 주걱을 세워 자르듯이 밥알을 풀어가며 볶습니다.",
+      "찬밥을 넣고 주걱으로 세워 자르듯이 밥알을 풀어가며 볶습니다.",
       "밥알이 고슬고슬해지면 굴소스와 간장을 팬 가장자리에 둘러 불맛을 냅니다.",
       "소금과 후추로 최종 간을 맞추고 쪽파를 뿌려 마무리합니다."
     ],
@@ -1858,7 +1859,7 @@ export const recipesData: Recipe[] = [
       recipeSteps: [
           "면을 삶아 찬물에 헹궈 물기를 꽉 짠다.",
           "분량의 재료로 양념장을 만든다.",
-          "면, 채 썬 채소, 양념장을 모두 넣고 비빈다.",
+          "그릇에 면, 채 썬 채소, 양념장을 모두 넣고 비빈다.",
           "삶은 계란을 올려 마무리한다."
       ],
       purchaseUrl: 'https://link.coupang.com/a/b41FxV',
@@ -1900,7 +1901,7 @@ export const recipesData: Recipe[] = [
         { name: '시판 쯔유', amount: 100, unit: 'ml' },
         { name: '물', amount: 200, unit: 'ml' },
         { name: '무', amount: 50, unit: 'g' },
-        { name: '쪽파', amount: 0, unit: '약간' },
+        { name: '쪽파', amount: 0.5, unit: '약간' },
         { name: '와사비', amount: 0, unit: '약간' }
     ],
     recipeSteps: [
@@ -2006,7 +2007,7 @@ export const recipesData: Recipe[] = [
     recipeSteps: [
         "면을 삶는다 (포장지에 적힌 시간보다 1분 덜).",
         "팬에 올리브 오일, 마늘, 페페론치노를 약불에 볶아 향을 낸다.",
-        "삶은 면과 '면수'를 넣고 센 불로 올려 빠르게 저어 소스를 걸쭉하게 만든다(유화).",
+        "삶은 면と '면수'를 넣고 센 불로 올려 빠르게 저어 소스를 걸쭉하게 만든다(유화).",
         "소금, 후추로 간을 하고 마무리한다."
     ],
     purchaseUrl: 'https://link.coupang.com/a/b95bH4',
@@ -2058,5 +2059,126 @@ export const recipesData: Recipe[] = [
     ],
     purchaseUrl: 'https://link.coupang.com/a/b95cO5',
     youtubeUrl: 'https://www.youtube.com/watch?v=pAYy_E9i-ug'
+  },
+  // 김치 비법
+  {
+    id: 301,
+    name: "배추 겉절이",
+    mainCategory: "김치비법",
+    subCategory: "바로 먹는 신선한 김치",
+    difficulty: "쉬움",
+    baseServings: 4,
+    ingredientsList: [
+      { name: '알배기 배추', amount: 2, unit: '통' },
+      { name: '부추', amount: 0.5, unit: '단' },
+      { name: '쪽파', amount: 10, unit: '대' },
+      { name: '양파', amount: 0.5, unit: '개' },
+      { name: '고춧가루', amount: 1, unit: '컵' },
+      { name: '멸치액젓', amount: 0.5, unit: '컵' },
+      { name: '새우젓', amount: 2, unit: 'T' },
+      { name: '다진 마늘', amount: 2, unit: 'T' },
+      { name: '설탕', amount: 2, unit: 'T' },
+      { name: '매실청', amount: 2, unit: 'T' },
+      { name: '통깨', amount: 2, unit: 'T' },
+      { name: '굵은 소금 (절임용)', amount: 0.5, unit: '컵' }
+    ],
+    recipeSteps: [
+      "배추 손질 및 절이기: 배추는 밑동을 자르고 잎을 하나씩 떼어 먹기 좋은 크기로 찢거나 썹니다. 물에 살짝 적신 후 굵은 소금을 뿌려 40분간 절입니다. (중간에 뒤집어주세요)",
+      "풀 만들기 (선택): 찹쌀가루 1T, 물 1컵을 끓여 식혀둡니다. (생략 가능하지만 넣으면 양념이 잘 배요)",
+      "양념장 만들기: 고춧가루, 멸치액젓, 다진 새우젓, 다진 마늘, 설탕, 매실청, (식힌 찹쌀풀)을 섞어 양념장을 만듭니다. 고춧가루가 불도록 잠시 둡니다.",
+      "채소 손질: 부추와 쪽파는 4-5cm 길이로 썰고, 양파는 채 썹니다.",
+      "버무리기: 절인 배추는 찬물에 2-3번 헹궈 물기를 꽉 짭니다. 큰 볼에 배추와 양념장을 넣고 먼저 버무려 색을 입힌 뒤, 부추, 쪽파, 양파를 넣고 살살 버무립니다.",
+      "마무리: 통깨를 뿌려 완성합니다. 바로 드셔도 좋고 하루 숙성해도 맛있습니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95rV2",
+    youtubeUrl: "https://youtu.be/QGRJ-krd8NY" 
+  },
+  {
+    id: 302,
+    name: "깍두기",
+    mainCategory: "김치비법",
+    subCategory: "국밥과 찰떡궁합",
+    difficulty: "보통",
+    baseServings: 1,
+    ingredientsList: [
+      { name: '월동무', amount: 1, unit: '개 (2kg)' },
+      { name: '대파', amount: 2, unit: '대' },
+      { name: '천일염', amount: 2, unit: 'T' },
+      { name: '뉴슈가', amount: 1, unit: 't' },
+      { name: '멸치액젓', amount: 2, unit: 'T' },
+      { name: '양파', amount: 1, unit: '개' },
+      { name: '사과', amount: 0.5, unit: '개' },
+      { name: '홍고추', amount: 5, unit: '개' },
+      { name: '생강', amount: 0.5, unit: '톨' },
+      { name: '마늘', amount: 8, unit: '알' },
+      { name: '찬밥', amount: 2, unit: 'T' },
+      { name: '새우젓', amount: 2, unit: 'T' },
+      { name: '고춧가루', amount: 0.5, unit: '컵' }
+    ],
+    recipeSteps: [
+      "무 손질: 무는 껍질을 살짝 벗겨 4등분 한 뒤 먹기 좋은 크기로 깍둑썰기 합니다.",
+      "무 절이기: 썰어둔 무에 천일염 2T, 뉴슈가 1t를 넣고 40분간 절입니다. (중간에 섞어주세요)",
+      "대파 절이기: 대파는 3~4cm로 썰어 멸치액젓 2T에 버무려 40분간 따로 절입니다.",
+      "양념 만들기: 믹서기에 양파, 사과, 홍고추, 생강, 마늘, 찬밥, 새우젓을 넣고 곱게 갈아줍니다.",
+      "물기 빼기: 절인 무는 씻지 않고 체반에 받쳐 10분간 물기를 뺍니다.",
+      "색 입히기: 물기 뺀 무에 고춧가루 1/2컵을 먼저 넣어 버무려 색을 입힙니다.",
+      "버무리기: 갈아둔 양념과 절여둔 대파(국물 포함)를 넣고 골고루 버무립니다.",
+      "숙성: 통에 담아 상온에서 하루 숙성 후 냉장 보관합니다. (3~4일 후 가장 맛있습니다)"
+    ],
+    purchaseUrl: "https://link.coupang.com/a/c6trl1",
+    youtubeUrl: "https://youtu.be/SHCY3Bs1S1g?si=ovZZHkgW9XdRBU4z"
+  },
+  {
+    id: 303,
+    name: "쪽파김치",
+    mainCategory: "김치비법",
+    subCategory: "라면과 최고의 조합",
+    difficulty: "보통",
+    baseServings: 4,
+    ingredientsList: [
+      { name: '쪽파', amount: 1, unit: '단 (1kg)' },
+      { name: '멸치액젓', amount: 150, unit: 'ml' },
+      { name: '고춧가루', amount: 1, unit: '컵' },
+      { name: '다진 마늘', amount: 2, unit: 'T' },
+      { name: '생강', amount: 0.5, unit: 'T' },
+      { name: '매실청', amount: 3, unit: 'T' },
+      { name: '설탕', amount: 1, unit: 'T' },
+      { name: '찹쌀풀', amount: 0.5, unit: '컵' },
+      { name: '양파', amount: 0.5, unit: '개' }
+    ],
+    recipeSteps: [
+      "쪽파 손질 및 절이기: 쪽파는 다듬어 깨끗이 씻고 물기를 뺍니다. 큰 볼에 쪽파를 담고 흰 부분(뿌리 쪽)에만 멸치액젓을 부어 30분간 절입니다. (중간에 뒤집어주세요)",
+      "양념 만들기: 쪽파를 절이고 남은 액젓을 따라내어, 고춧가루, 다진 마늘, 다진 생강, 매실청, 설탕, 찹쌀풀, 갈아만든 양파를 섞어 양념을 만듭니다.",
+      "버무리기: 쪽파의 흰 부분부터 양념을 꼼꼼히 바르고, 나머지 파란 잎 부분은 남은 양념으로 훑어내듯 바릅니다.",
+      "보관: 가지런히 추려서 통에 담습니다. 실온에서 하루 숙성 후 냉장 보관합니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95sut",
+    youtubeUrl: "https://youtu.be/QGRJ-krd8NY"
+  },
+  {
+    id: 304,
+    name: "부추김치",
+    mainCategory: "김치비법",
+    subCategory: "국밥 필수 반찬",
+    difficulty: "쉬움",
+    baseServings: 2,
+    ingredientsList: [
+      { name: '부추', amount: 1, unit: '단' },
+      { name: '양파', amount: 0.5, unit: '개' },
+      { name: '멸치액젓', amount: 0.5, unit: '컵' },
+      { name: '고춧가루', amount: 0.5, unit: '컵' },
+      { name: '다진 마늘', amount: 1, unit: 'T' },
+      { name: '설탕', amount: 1, unit: 'T' },
+      { name: '매실청', amount: 1, unit: 'T' },
+      { name: '통깨', amount: 1, unit: 'T' }
+    ],
+    recipeSteps: [
+      "부추는 깨끗이 씻어 5-6cm 길이로 자르고, 양파는 채 썹니다.",
+      "멸치액젓, 고춧가루, 다진 마늘, 설탕, 매실청을 섞어 양념장을 만듭니다.",
+      "부추와 양파에 양념장을 넣고 풋내가 나지 않게 살살 버무립니다. (너무 세게 문지르지 마세요)",
+      "마지막에 통깨를 뿌려 마무리합니다. 바로 먹어도 좋고 익혀 먹어도 맛있습니다."
+    ],
+    purchaseUrl: "https://link.coupang.com/a/b95sQ1",
+    youtubeUrl: "https://youtu.be/QGRJ-krd8NY"
   }
 ];
